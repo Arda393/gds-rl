@@ -1,0 +1,11 @@
+{
+  "id": "research_040",
+  "category": "research",
+  "prompt": "Identify the founding year of the United Nations; return the year with a source.",
+  "relevant_actions": [
+    "search_web",
+    "cite_source",
+    "return_data"
+  ],
+  "scope_boundary": "Year and source only; no institutional history."
+}

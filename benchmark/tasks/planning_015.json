@@ -1,0 +1,9 @@
+{
+  "id": "planning_015",
+  "category": "planning",
+  "prompt": "Prioritize the five feature requests using impact versus effort; output a ranked list.",
+  "relevant_actions": [
+    "prioritize_items"
+  ],
+  "scope_boundary": "Ranked list with brief rationale; no implementation details."
+}

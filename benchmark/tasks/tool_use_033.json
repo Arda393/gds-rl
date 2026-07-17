@@ -1,0 +1,10 @@
+{
+  "id": "tool_use_033",
+  "category": "tool_use",
+  "prompt": "Send a POST request with the provided payload to the given endpoint and return the response body.",
+  "relevant_actions": [
+    "send_request",
+    "return_data"
+  ],
+  "scope_boundary": "One request with the given payload; do not modify the payload."
+}

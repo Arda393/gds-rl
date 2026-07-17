@@ -1,0 +1,12 @@
+{
+  "id": "tool_use_019",
+  "category": "tool_use",
+  "prompt": "Validate that every record in orders.json has an id and a total field; list the offending records.",
+  "relevant_actions": [
+    "read_file",
+    "parse_json",
+    "validate_data",
+    "return_data"
+  ],
+  "scope_boundary": "Report violations only; do not fix or remove records."
+}

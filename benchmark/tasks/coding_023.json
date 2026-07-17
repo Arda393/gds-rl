@@ -1,0 +1,11 @@
+{
+  "id": "coding_023",
+  "category": "coding",
+  "prompt": "Read app.log and return only the lines containing ERROR.",
+  "relevant_actions": [
+    "read_file",
+    "filter_data",
+    "return_data"
+  ],
+  "scope_boundary": "ERROR lines only; no parsing of timestamps or grouping."
+}

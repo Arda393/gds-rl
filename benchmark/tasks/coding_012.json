@@ -1,0 +1,12 @@
+{
+  "id": "coding_012",
+  "category": "coding",
+  "prompt": "Count word frequencies in article.txt and return the 10 most common words.",
+  "relevant_actions": [
+    "read_file",
+    "aggregate_data",
+    "sort_data",
+    "return_data"
+  ],
+  "scope_boundary": "Top 10 words only; no charts, no stop-word analysis, no full distribution."
+}

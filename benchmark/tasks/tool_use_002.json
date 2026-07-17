@@ -1,0 +1,11 @@
+{
+  "id": "tool_use_002",
+  "category": "tool_use",
+  "prompt": "Call the weather API for Istanbul and return only the current temperature.",
+  "relevant_actions": [
+    "call_api",
+    "parse_json",
+    "return_data"
+  ],
+  "scope_boundary": "Current temperature only; no forecast or other fields."
+}

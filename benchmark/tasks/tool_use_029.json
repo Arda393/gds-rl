@@ -1,0 +1,10 @@
+{
+  "id": "tool_use_029",
+  "category": "tool_use",
+  "prompt": "Call the translation API to translate the given sentence to French; return only the translation.",
+  "relevant_actions": [
+    "call_api",
+    "return_data"
+  ],
+  "scope_boundary": "One translation only; no alternative phrasings or language notes."
+}

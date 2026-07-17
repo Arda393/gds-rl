@@ -1,0 +1,12 @@
+{
+  "id": "coding_005",
+  "category": "coding",
+  "prompt": "Parse config.json and return the 'database' section as a dictionary.",
+  "relevant_actions": [
+    "read_file",
+    "parse_json",
+    "filter_data",
+    "return_data"
+  ],
+  "scope_boundary": "Return the database section only; do not modify or validate other sections."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "coding_049",
+  "category": "coding",
+  "prompt": "Write a function is_palindrome(s) that ignores case and punctuation.",
+  "relevant_actions": [
+    "write_code"
+  ],
+  "scope_boundary": "One function only; no CLI or batch processing."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "coding_030",
+  "category": "coding",
+  "prompt": "Compute the MD5 checksum of backup.tar and print it.",
+  "relevant_actions": [
+    "write_code",
+    "run_code"
+  ],
+  "scope_boundary": "MD5 of that one file only; no directory hashing or verification system."
+}

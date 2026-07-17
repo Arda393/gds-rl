@@ -1,0 +1,12 @@
+{
+  "id": "tool_use_003",
+  "category": "tool_use",
+  "prompt": "Convert data.csv to data.json, preserving all fields.",
+  "relevant_actions": [
+    "read_file",
+    "parse_csv",
+    "convert_format",
+    "write_file"
+  ],
+  "scope_boundary": "Format conversion only; no cleaning, renaming, or filtering."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "research_007",
+  "category": "research",
+  "prompt": "Find the current population estimate of Istanbul and cite the source.",
+  "relevant_actions": [
+    "search_web",
+    "cite_source",
+    "return_data"
+  ],
+  "scope_boundary": "One number and one source; no history or demographic analysis."
+}

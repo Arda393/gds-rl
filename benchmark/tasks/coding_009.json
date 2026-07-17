@@ -1,0 +1,9 @@
+{
+  "id": "coding_009",
+  "category": "coding",
+  "prompt": "Implement a function median(numbers) without using external libraries.",
+  "relevant_actions": [
+    "write_code"
+  ],
+  "scope_boundary": "Median only; no mean, mode, or other statistics."
+}

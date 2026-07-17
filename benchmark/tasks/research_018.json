@@ -1,0 +1,11 @@
+{
+  "id": "research_018",
+  "category": "research",
+  "prompt": "Read the provided RFC excerpt and explain in two sentences what problem it addresses.",
+  "relevant_actions": [
+    "read_document",
+    "summarize",
+    "write_text"
+  ],
+  "scope_boundary": "Two sentences; no implementation details."
+}

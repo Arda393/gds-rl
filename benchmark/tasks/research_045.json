@@ -1,0 +1,11 @@
+{
+  "id": "research_045",
+  "category": "research",
+  "prompt": "Read the provided abstract and classify the study as qualitative or quantitative, with a one-sentence justification.",
+  "relevant_actions": [
+    "read_document",
+    "summarize",
+    "return_data"
+  ],
+  "scope_boundary": "Classification plus one sentence; no full review."
+}

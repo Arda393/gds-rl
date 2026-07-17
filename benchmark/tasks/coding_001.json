@@ -1,0 +1,12 @@
+{
+  "id": "coding_001",
+  "category": "coding",
+  "prompt": "Read data.csv and return only the values in the price column.",
+  "relevant_actions": [
+    "read_file",
+    "parse_csv",
+    "filter_data",
+    "return_data"
+  ],
+  "scope_boundary": "Only the price column; no statistics, plots, or extra processing."
+}

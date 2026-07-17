@@ -1,0 +1,12 @@
+{
+  "id": "coding_047",
+  "category": "coding",
+  "prompt": "Convert all snake_case keys in payload.json to camelCase and save the result.",
+  "relevant_actions": [
+    "read_file",
+    "parse_json",
+    "convert_format",
+    "write_file"
+  ],
+  "scope_boundary": "Key renaming only; values must remain byte-identical."
+}

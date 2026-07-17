@@ -1,0 +1,11 @@
+{
+  "id": "research_011",
+  "category": "research",
+  "prompt": "Read the two provided abstracts and state which one reports a larger sample size.",
+  "relevant_actions": [
+    "read_document",
+    "compare_sources",
+    "return_data"
+  ],
+  "scope_boundary": "Sample size comparison only; do not evaluate study quality."
+}

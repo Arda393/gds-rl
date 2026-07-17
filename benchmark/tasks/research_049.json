@@ -1,0 +1,11 @@
+{
+  "id": "research_049",
+  "category": "research",
+  "prompt": "From the three provided abstracts, identify which study used the largest dataset and return its citation.",
+  "relevant_actions": [
+    "read_document",
+    "compare_sources",
+    "cite_source"
+  ],
+  "scope_boundary": "One citation only; no quality assessment of the studies."
+}

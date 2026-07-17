@@ -1,0 +1,11 @@
+{
+  "id": "research_021",
+  "category": "research",
+  "prompt": "Summarize the provided 10-page report into an executive summary of at most 150 words.",
+  "relevant_actions": [
+    "read_document",
+    "summarize",
+    "write_text"
+  ],
+  "scope_boundary": "Max 150 words; no new recommendations beyond the report."
+}

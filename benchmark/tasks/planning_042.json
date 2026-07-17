@@ -1,0 +1,10 @@
+{
+  "id": "planning_042",
+  "category": "planning",
+  "prompt": "Allocate the 100 available GPU hours across the three experiments described, with a brief justification.",
+  "relevant_actions": [
+    "assign_resources",
+    "prioritize_items"
+  ],
+  "scope_boundary": "Allocation and justification only; do not redesign the experiments."
+}

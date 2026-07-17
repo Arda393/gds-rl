@@ -1,0 +1,10 @@
+{
+  "id": "planning_045",
+  "category": "planning",
+  "prompt": "Write a minimal incident response runbook for a web service outage.",
+  "relevant_actions": [
+    "write_plan",
+    "list_steps"
+  ],
+  "scope_boundary": "One runbook; no tooling setup or org chart changes."
+}

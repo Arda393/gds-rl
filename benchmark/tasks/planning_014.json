@@ -1,0 +1,10 @@
+{
+  "id": "planning_014",
+  "category": "planning",
+  "prompt": "Estimate how many sprints the listed 12 stories need, given a velocity of 20 points per sprint.",
+  "relevant_actions": [
+    "estimate_time",
+    "check_constraint"
+  ],
+  "scope_boundary": "Sprint count with the math; do not re-estimate story points."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "planning_007",
+  "category": "planning",
+  "prompt": "Check whether the proposed schedule fits within the 10-day deadline; answer yes or no with one sentence.",
+  "relevant_actions": [
+    "check_constraint"
+  ],
+  "scope_boundary": "Feasibility check only; do not redesign the schedule."
+}

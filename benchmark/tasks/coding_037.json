@@ -1,0 +1,12 @@
+{
+  "id": "coding_037",
+  "category": "coding",
+  "prompt": "data.min.json is minified. Pretty-print it with 2-space indentation into data.pretty.json.",
+  "relevant_actions": [
+    "read_file",
+    "parse_json",
+    "convert_format",
+    "write_file"
+  ],
+  "scope_boundary": "Formatting only; values and structure must not change."
+}

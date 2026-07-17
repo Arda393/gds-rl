@@ -1,0 +1,11 @@
+{
+  "id": "research_016",
+  "category": "research",
+  "prompt": "Write a 100-word neutral summary of the provided product announcement.",
+  "relevant_actions": [
+    "read_document",
+    "summarize",
+    "write_text"
+  ],
+  "scope_boundary": "About 100 words, neutral tone; no marketing language or critique."
+}

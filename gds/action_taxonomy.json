@@ -1,0 +1,85 @@
+{
+  "web_scraper": [
+    "fetch_url",
+    "parse_html",
+    "write_file",
+    "read_file"
+  ],
+  "email_ozetle": [
+    "read_email",
+    "write_text",
+    "format_output"
+  ],
+  "kod_yaz": [
+    "write_code",
+    "run_code",
+    "debug_code",
+    "read_file"
+  ],
+  "coding": [
+    "aggregate_data",
+    "convert_format",
+    "debug_code",
+    "filter_data",
+    "format_code",
+    "parse_csv",
+    "parse_json",
+    "parse_xml",
+    "read_file",
+    "refactor_code",
+    "return_data",
+    "run_code",
+    "run_test",
+    "sort_data",
+    "transform_data",
+    "validate_data",
+    "write_code",
+    "write_file",
+    "write_test"
+  ],
+  "research": [
+    "cite_source",
+    "compare_sources",
+    "extract_text",
+    "read_document",
+    "return_data",
+    "search_web",
+    "summarize",
+    "take_notes",
+    "write_text"
+  ],
+  "tool_use": [
+    "aggregate_data",
+    "call_api",
+    "compress_file",
+    "convert_format",
+    "extract_archive",
+    "fetch_url",
+    "filter_data",
+    "format_output",
+    "monitor_status",
+    "parse_csv",
+    "parse_html",
+    "parse_json",
+    "parse_xml",
+    "query_database",
+    "read_file",
+    "return_data",
+    "schedule_job",
+    "send_request",
+    "validate_data",
+    "write_file"
+  ],
+  "planning": [
+    "assign_resources",
+    "check_constraint",
+    "define_milestone",
+    "estimate_cost",
+    "estimate_time",
+    "identify_risk",
+    "list_steps",
+    "order_tasks",
+    "prioritize_items",
+    "write_plan"
+  ]
+}

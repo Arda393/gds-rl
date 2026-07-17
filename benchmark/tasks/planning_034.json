@@ -1,0 +1,9 @@
+{
+  "id": "planning_034",
+  "category": "planning",
+  "prompt": "Order the six onboarding documents into a logical reading sequence.",
+  "relevant_actions": [
+    "order_tasks"
+  ],
+  "scope_boundary": "Ordering only; do not rewrite or summarize the documents."
+}

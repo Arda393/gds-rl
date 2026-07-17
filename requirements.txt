@@ -1,0 +1,13 @@
+# GDS metrigi icin (Asama 1)
+sentence-transformers>=3.0
+torch>=2.3
+scikit-learn>=1.5
+pytest
+
+# GRPO training icin (Asama 4+, TRUBA'da kurulacak)
+# transformers>=4.45
+# trl>=0.12
+# peft>=0.13
+# accelerate>=0.34
+# datasets>=3.0
+# wandb>=0.18

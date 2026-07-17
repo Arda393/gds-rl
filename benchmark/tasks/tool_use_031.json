@@ -1,0 +1,11 @@
+{
+  "id": "tool_use_031",
+  "category": "tool_use",
+  "prompt": "Query the events table for the 5 most recent events and output them as JSON.",
+  "relevant_actions": [
+    "query_database",
+    "format_output",
+    "return_data"
+  ],
+  "scope_boundary": "Five rows as JSON; no aggregation or joins."
+}

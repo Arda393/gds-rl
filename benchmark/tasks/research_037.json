@@ -1,0 +1,11 @@
+{
+  "id": "research_037",
+  "category": "research",
+  "prompt": "Read the two provided migration guides and list the steps that appear in both.",
+  "relevant_actions": [
+    "read_document",
+    "compare_sources",
+    "return_data"
+  ],
+  "scope_boundary": "Common steps only; do not write a merged guide."
+}

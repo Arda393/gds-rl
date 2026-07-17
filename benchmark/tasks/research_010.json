@@ -1,0 +1,11 @@
+{
+  "id": "research_010",
+  "category": "research",
+  "prompt": "Find the original release date of Python 3.0 and return it with a source.",
+  "relevant_actions": [
+    "search_web",
+    "cite_source",
+    "return_data"
+  ],
+  "scope_boundary": "Date and source only; no version history."
+}

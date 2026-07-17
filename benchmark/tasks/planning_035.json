@@ -1,0 +1,9 @@
+{
+  "id": "planning_035",
+  "category": "planning",
+  "prompt": "Prioritize the listed marketing channels for a zero-budget launch.",
+  "relevant_actions": [
+    "prioritize_items"
+  ],
+  "scope_boundary": "Ranked list only; no campaign content creation."
+}

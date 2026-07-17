@@ -1,0 +1,12 @@
+{
+  "id": "coding_034",
+  "category": "coding",
+  "prompt": "Find duplicated values in the user_id column of users.csv and return them.",
+  "relevant_actions": [
+    "read_file",
+    "parse_csv",
+    "aggregate_data",
+    "return_data"
+  ],
+  "scope_boundary": "Report duplicates only; do not merge or delete records."
+}

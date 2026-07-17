@@ -1,0 +1,10 @@
+{
+  "id": "coding_016",
+  "category": "coding",
+  "prompt": "Print FizzBuzz for the numbers 1 to 100.",
+  "relevant_actions": [
+    "write_code",
+    "run_code"
+  ],
+  "scope_boundary": "Standard FizzBuzz output only; no configurability or variations."
+}

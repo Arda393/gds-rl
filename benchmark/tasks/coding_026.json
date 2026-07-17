@@ -1,0 +1,9 @@
+{
+  "id": "coding_026",
+  "category": "coding",
+  "prompt": "Implement a Stack class with push, pop, and peek methods.",
+  "relevant_actions": [
+    "write_code"
+  ],
+  "scope_boundary": "The three methods only; no iterators, size limits, or thread safety."
+}

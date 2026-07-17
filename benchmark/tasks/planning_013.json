@@ -1,0 +1,9 @@
+{
+  "id": "planning_013",
+  "category": "planning",
+  "prompt": "Identify the scheduling conflicts in the provided two-team calendar.",
+  "relevant_actions": [
+    "check_constraint"
+  ],
+  "scope_boundary": "List conflicts only; do not propose a new calendar."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "planning_016",
+  "category": "planning",
+  "prompt": "Plan the agenda for a 60-minute sprint retrospective with time boxes.",
+  "relevant_actions": [
+    "write_plan",
+    "estimate_time"
+  ],
+  "scope_boundary": "Agenda only; do not run the retro or invent team issues."
+}

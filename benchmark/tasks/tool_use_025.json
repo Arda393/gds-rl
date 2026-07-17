@@ -1,0 +1,10 @@
+{
+  "id": "tool_use_025",
+  "category": "tool_use",
+  "prompt": "Check the SSL certificate expiry date of the given domain and report it.",
+  "relevant_actions": [
+    "send_request",
+    "return_data"
+  ],
+  "scope_boundary": "Expiry date only; no full security audit."
+}

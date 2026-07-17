@@ -1,0 +1,11 @@
+{
+  "id": "research_038",
+  "category": "research",
+  "prompt": "Find the average annual rainfall of London and cite a source.",
+  "relevant_actions": [
+    "search_web",
+    "cite_source",
+    "return_data"
+  ],
+  "scope_boundary": "One value and source; no climate change discussion."
+}

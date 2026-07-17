@@ -1,0 +1,9 @@
+{
+  "id": "planning_008",
+  "category": "planning",
+  "prompt": "Assign the four team members to the five tasks based on the listed skills, one assignment per task.",
+  "relevant_actions": [
+    "assign_resources"
+  ],
+  "scope_boundary": "Assignments only; do not change tasks or question the skill list."
+}

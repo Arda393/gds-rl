@@ -1,0 +1,11 @@
+{
+  "id": "research_035",
+  "category": "research",
+  "prompt": "Summarize the provided court ruling excerpt in plain language, in one paragraph.",
+  "relevant_actions": [
+    "read_document",
+    "summarize",
+    "write_text"
+  ],
+  "scope_boundary": "One plain-language paragraph; no legal opinion."
+}

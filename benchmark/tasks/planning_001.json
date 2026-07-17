@@ -1,0 +1,10 @@
+{
+  "id": "planning_001",
+  "category": "planning",
+  "prompt": "Create a 5-step plan for migrating a WordPress blog to a new hosting provider.",
+  "relevant_actions": [
+    "list_steps",
+    "write_plan"
+  ],
+  "scope_boundary": "Plan only; do not execute any migration step."
+}

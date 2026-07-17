@@ -1,0 +1,11 @@
+{
+  "id": "research_024",
+  "category": "research",
+  "prompt": "List the official system requirements for Docker Desktop on Windows, citing the documentation.",
+  "relevant_actions": [
+    "search_web",
+    "extract_text",
+    "cite_source"
+  ],
+  "scope_boundary": "Windows requirements only; no installation guide."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "research_043",
+  "category": "research",
+  "prompt": "From the provided interview transcript, extract every question the interviewer asked.",
+  "relevant_actions": [
+    "read_document",
+    "extract_text",
+    "return_data"
+  ],
+  "scope_boundary": "Questions only; do not include or summarize the answers."
+}

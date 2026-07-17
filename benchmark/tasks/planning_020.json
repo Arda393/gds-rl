@@ -1,0 +1,10 @@
+{
+  "id": "planning_020",
+  "category": "planning",
+  "prompt": "Identify the critical-path task in the provided dependency graph.",
+  "relevant_actions": [
+    "order_tasks",
+    "check_constraint"
+  ],
+  "scope_boundary": "Name the critical path only; do not optimize the graph."
+}

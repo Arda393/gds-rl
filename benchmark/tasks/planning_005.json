@@ -1,0 +1,10 @@
+{
+  "id": "planning_005",
+  "category": "planning",
+  "prompt": "Define milestones for a 3-month mobile app project, one per month.",
+  "relevant_actions": [
+    "define_milestone",
+    "write_plan"
+  ],
+  "scope_boundary": "Three milestones only; no detailed task breakdown."
+}

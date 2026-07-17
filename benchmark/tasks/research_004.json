@@ -1,0 +1,11 @@
+{
+  "id": "research_004",
+  "category": "research",
+  "prompt": "List five peer-reviewed papers on reinforcement learning from human feedback, with full citations.",
+  "relevant_actions": [
+    "search_web",
+    "cite_source",
+    "write_text"
+  ],
+  "scope_boundary": "Citation list only; no summaries or commentary."
+}

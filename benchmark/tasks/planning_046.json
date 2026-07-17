@@ -1,0 +1,10 @@
+{
+  "id": "planning_046",
+  "category": "planning",
+  "prompt": "Order the five release tasks so that user-facing downtime comes last and is shortest.",
+  "relevant_actions": [
+    "order_tasks",
+    "check_constraint"
+  ],
+  "scope_boundary": "Ordering only; do not change the tasks themselves."
+}

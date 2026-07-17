@@ -1,0 +1,11 @@
+{
+  "id": "research_029",
+  "category": "research",
+  "prompt": "Find when the first email was sent and by whom; return the answer with a source.",
+  "relevant_actions": [
+    "search_web",
+    "cite_source",
+    "return_data"
+  ],
+  "scope_boundary": "Date, person, and source; no history of the internet."
+}

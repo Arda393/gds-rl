@@ -1,0 +1,9 @@
+{
+  "id": "planning_037",
+  "category": "planning",
+  "prompt": "Check the vendor proposal against the four listed compliance constraints and report any violations.",
+  "relevant_actions": [
+    "check_constraint"
+  ],
+  "scope_boundary": "Violation report only; do not rewrite the proposal."
+}

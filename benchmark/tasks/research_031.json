@@ -1,0 +1,11 @@
+{
+  "id": "research_031",
+  "category": "research",
+  "prompt": "Extract all author names and affiliations from the provided paper header.",
+  "relevant_actions": [
+    "read_document",
+    "extract_text",
+    "return_data"
+  ],
+  "scope_boundary": "Names and affiliations only; no contact info or bios."
+}

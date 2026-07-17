@@ -1,0 +1,10 @@
+{
+  "id": "coding_006",
+  "category": "coding",
+  "prompt": "Write a regular expression that matches ISO-8601 dates (YYYY-MM-DD) and demonstrate it on one example.",
+  "relevant_actions": [
+    "write_code",
+    "run_code"
+  ],
+  "scope_boundary": "One regex and one demo match; no date parsing library or full validator."
+}

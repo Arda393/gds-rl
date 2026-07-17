@@ -1,0 +1,11 @@
+{
+  "id": "research_030",
+  "category": "research",
+  "prompt": "List the pros and cons of remote work mentioned in the provided survey report.",
+  "relevant_actions": [
+    "read_document",
+    "extract_text",
+    "write_text"
+  ],
+  "scope_boundary": "Only points mentioned in the report; do not add your own."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "research_006",
+  "category": "research",
+  "prompt": "Fact-check this claim: 'The Great Wall of China is visible from the Moon with the naked eye.' Give a verdict and one source.",
+  "relevant_actions": [
+    "search_web",
+    "cite_source",
+    "write_text"
+  ],
+  "scope_boundary": "Verdict plus one source; no essay on space photography."
+}

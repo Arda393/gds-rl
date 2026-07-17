@@ -1,0 +1,10 @@
+{
+  "id": "tool_use_027",
+  "category": "tool_use",
+  "prompt": "Extract invoice.zip and return the names of the files it contains.",
+  "relevant_actions": [
+    "extract_archive",
+    "return_data"
+  ],
+  "scope_boundary": "File names only; do not open or process the files."
+}

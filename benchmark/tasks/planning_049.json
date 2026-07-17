@@ -1,0 +1,9 @@
+{
+  "id": "planning_049",
+  "category": "planning",
+  "prompt": "Check whether the travel itinerary meets the constraint of no layover shorter than 90 minutes.",
+  "relevant_actions": [
+    "check_constraint"
+  ],
+  "scope_boundary": "Constraint check only; do not rebook or suggest new flights."
+}

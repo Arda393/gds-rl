@@ -1,0 +1,11 @@
+{
+  "id": "tool_use_048",
+  "category": "tool_use",
+  "prompt": "Query the metrics database for the average response time over the past hour and return the number.",
+  "relevant_actions": [
+    "query_database",
+    "aggregate_data",
+    "return_data"
+  ],
+  "scope_boundary": "One average only; no percentiles or dashboards."
+}

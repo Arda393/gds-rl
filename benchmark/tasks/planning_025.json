@@ -1,0 +1,10 @@
+{
+  "id": "planning_025",
+  "category": "planning",
+  "prompt": "Create a study plan for learning SQL basics in two weeks at one hour per day.",
+  "relevant_actions": [
+    "write_plan",
+    "estimate_time"
+  ],
+  "scope_boundary": "Two weeks, one hour per day; no course or book purchases."
+}

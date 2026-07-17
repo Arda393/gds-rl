@@ -1,0 +1,11 @@
+{
+  "id": "tool_use_035",
+  "category": "tool_use",
+  "prompt": "Convert the provided Markdown file to HTML and save it as readme.html.",
+  "relevant_actions": [
+    "read_file",
+    "convert_format",
+    "write_file"
+  ],
+  "scope_boundary": "Conversion only; no styling, themes, or content edits."
+}

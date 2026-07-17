@@ -1,0 +1,11 @@
+{
+  "id": "tool_use_026",
+  "category": "tool_use",
+  "prompt": "Format the provided JSON log entries as a human-readable table.",
+  "relevant_actions": [
+    "read_file",
+    "parse_json",
+    "format_output"
+  ],
+  "scope_boundary": "Formatting only; do not filter, dedupe, or interpret entries."
+}

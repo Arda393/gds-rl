@@ -1,0 +1,9 @@
+{
+  "id": "planning_043",
+  "category": "planning",
+  "prompt": "Estimate how long the described data backfill will take at 500 rows per second.",
+  "relevant_actions": [
+    "estimate_time"
+  ],
+  "scope_boundary": "One estimate with the math; no optimization suggestions."
+}

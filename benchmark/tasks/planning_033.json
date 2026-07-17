@@ -1,0 +1,9 @@
+{
+  "id": "planning_033",
+  "category": "planning",
+  "prompt": "Write a communication plan for the planned 2-hour maintenance window.",
+  "relevant_actions": [
+    "write_plan"
+  ],
+  "scope_boundary": "Communication plan only; not the maintenance plan itself."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "tool_use_017",
+  "category": "tool_use",
+  "prompt": "Read sensor.log and output the last 10 readings formatted as a table.",
+  "relevant_actions": [
+    "read_file",
+    "format_output"
+  ],
+  "scope_boundary": "Last 10 readings only; no trend analysis or charts."
+}

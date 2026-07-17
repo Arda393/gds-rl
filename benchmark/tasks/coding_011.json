@@ -1,0 +1,11 @@
+{
+  "id": "coding_011",
+  "category": "coding",
+  "prompt": "Remove duplicate lines from input.txt while preserving the original order, and write the result to output.txt.",
+  "relevant_actions": [
+    "read_file",
+    "filter_data",
+    "write_file"
+  ],
+  "scope_boundary": "Deduplicate only; do not sort, trim, or otherwise alter lines."
+}

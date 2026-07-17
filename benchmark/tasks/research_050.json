@@ -1,0 +1,11 @@
+{
+  "id": "research_050",
+  "category": "research",
+  "prompt": "Find the winners of the 2018 Turing Award and return the names with a source.",
+  "relevant_actions": [
+    "search_web",
+    "cite_source",
+    "return_data"
+  ],
+  "scope_boundary": "Names and source only; no biography or work summary."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "research_023",
+  "category": "research",
+  "prompt": "Verify whether the quote attributed to Einstein in the provided text is authentic; give a verdict and a source.",
+  "relevant_actions": [
+    "search_web",
+    "cite_source",
+    "write_text"
+  ],
+  "scope_boundary": "Verdict and source only; no biography of Einstein."
+}

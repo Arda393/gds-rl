@@ -1,0 +1,11 @@
+{
+  "id": "research_012",
+  "category": "research",
+  "prompt": "Quote the definition of 'overfitting' from two different textbooks, with citations.",
+  "relevant_actions": [
+    "search_web",
+    "cite_source",
+    "take_notes"
+  ],
+  "scope_boundary": "Two quoted definitions with citations; no synthesis or own definition."
+}

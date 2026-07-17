@@ -1,0 +1,9 @@
+{
+  "id": "planning_040",
+  "category": "planning",
+  "prompt": "Identify the dependencies between the eight listed tasks and output them as pairs.",
+  "relevant_actions": [
+    "order_tasks"
+  ],
+  "scope_boundary": "Dependency pairs only; no schedule or estimates."
+}

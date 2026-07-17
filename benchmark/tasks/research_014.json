@@ -1,0 +1,11 @@
+{
+  "id": "research_014",
+  "category": "research",
+  "prompt": "Find which country hosted the 2014 FIFA World Cup; return the country and a source.",
+  "relevant_actions": [
+    "search_web",
+    "cite_source",
+    "return_data"
+  ],
+  "scope_boundary": "Country and source only; no tournament results."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "coding_025",
+  "category": "coding",
+  "prompt": "In orders.csv, convert the order_date column from MM/DD/YYYY to ISO format and save the file.",
+  "relevant_actions": [
+    "read_file",
+    "parse_csv",
+    "convert_format",
+    "write_file"
+  ],
+  "scope_boundary": "Only the order_date column; all other columns stay untouched."
+}

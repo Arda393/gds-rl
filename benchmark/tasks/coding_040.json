@@ -1,0 +1,11 @@
+{
+  "id": "coding_040",
+  "category": "coding",
+  "prompt": "Count the lines of code in engine.py, excluding blank lines and comments.",
+  "relevant_actions": [
+    "read_file",
+    "aggregate_data",
+    "return_data"
+  ],
+  "scope_boundary": "One count for one file; no complexity metrics or per-function stats."
+}

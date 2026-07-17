@@ -1,0 +1,11 @@
+{
+  "id": "research_036",
+  "category": "research",
+  "prompt": "Find the publication venue of the paper 'BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding'.",
+  "relevant_actions": [
+    "search_web",
+    "cite_source",
+    "return_data"
+  ],
+  "scope_boundary": "Venue name and year only; no summary of BERT."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "coding_033",
+  "category": "coding",
+  "prompt": "Write a function that converts Celsius to Fahrenheit and another that converts Fahrenheit to Celsius.",
+  "relevant_actions": [
+    "write_code"
+  ],
+  "scope_boundary": "The two conversion functions only; no Kelvin, no CLI."
+}

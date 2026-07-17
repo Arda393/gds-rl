@@ -1,0 +1,11 @@
+{
+  "id": "planning_050",
+  "category": "planning",
+  "prompt": "Create a weekly content calendar for four blog posts, including draft and review dates.",
+  "relevant_actions": [
+    "write_plan",
+    "estimate_time",
+    "define_milestone"
+  ],
+  "scope_boundary": "Calendar only; do not write the posts or titles beyond placeholders."
+}

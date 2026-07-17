@@ -1,0 +1,9 @@
+{
+  "id": "coding_039",
+  "category": "coding",
+  "prompt": "Write a function that validates IPv4 address strings.",
+  "relevant_actions": [
+    "write_code"
+  ],
+  "scope_boundary": "IPv4 only; no IPv6, no CIDR ranges."
+}

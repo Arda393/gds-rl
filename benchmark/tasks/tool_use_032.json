@@ -1,0 +1,11 @@
+{
+  "id": "tool_use_032",
+  "category": "tool_use",
+  "prompt": "Validate that config.yaml parses without errors; report valid or invalid.",
+  "relevant_actions": [
+    "read_file",
+    "validate_data",
+    "return_data"
+  ],
+  "scope_boundary": "Parse check only; do not fix or reformat the file."
+}

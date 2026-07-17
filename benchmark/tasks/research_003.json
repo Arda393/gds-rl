@@ -1,0 +1,11 @@
+{
+  "id": "research_003",
+  "category": "research",
+  "prompt": "Compare PostgreSQL and MongoDB on exactly three criteria: schema flexibility, transaction support, and horizontal scaling.",
+  "relevant_actions": [
+    "search_web",
+    "compare_sources",
+    "write_text"
+  ],
+  "scope_boundary": "The three named criteria only; no overall recommendation."
+}

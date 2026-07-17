@@ -1,0 +1,11 @@
+{
+  "id": "research_047",
+  "category": "research",
+  "prompt": "Find the number of confirmed moons of Jupiter according to the latest count, and cite the source.",
+  "relevant_actions": [
+    "search_web",
+    "cite_source",
+    "return_data"
+  ],
+  "scope_boundary": "Count and source only; no astronomy overview."
+}

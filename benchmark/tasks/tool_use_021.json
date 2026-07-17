@@ -1,0 +1,11 @@
+{
+  "id": "tool_use_021",
+  "category": "tool_use",
+  "prompt": "Fetch the given URL and return only the text of the <title> tag.",
+  "relevant_actions": [
+    "fetch_url",
+    "parse_html",
+    "return_data"
+  ],
+  "scope_boundary": "Title text only; ignore the rest of the page."
+}

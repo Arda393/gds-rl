@@ -1,0 +1,10 @@
+{
+  "id": "planning_023",
+  "category": "planning",
+  "prompt": "Order the provided maintenance jobs to minimize total downtime.",
+  "relevant_actions": [
+    "order_tasks",
+    "check_constraint"
+  ],
+  "scope_boundary": "Ordering with brief justification; do not modify job contents."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "planning_006",
+  "category": "planning",
+  "prompt": "Prioritize the given bug list by severity and user impact.",
+  "relevant_actions": [
+    "prioritize_items"
+  ],
+  "scope_boundary": "Ranked list only; do not propose fixes."
+}

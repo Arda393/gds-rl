@@ -1,0 +1,12 @@
+{
+  "id": "coding_048",
+  "category": "coding",
+  "prompt": "Compute the average of the score column in results.csv, ignoring empty cells.",
+  "relevant_actions": [
+    "read_file",
+    "parse_csv",
+    "aggregate_data",
+    "return_data"
+  ],
+  "scope_boundary": "One average only; no other statistics or imputation."
+}

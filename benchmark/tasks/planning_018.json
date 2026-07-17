@@ -1,0 +1,10 @@
+{
+  "id": "planning_018",
+  "category": "planning",
+  "prompt": "Define the milestones for the MVP described below, with acceptance criteria for each.",
+  "relevant_actions": [
+    "define_milestone",
+    "write_plan"
+  ],
+  "scope_boundary": "Milestones and criteria only; no feature additions."
+}

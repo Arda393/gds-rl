@@ -1,0 +1,9 @@
+{
+  "id": "planning_004",
+  "category": "planning",
+  "prompt": "Identify the top three risks of the product launch described below.",
+  "relevant_actions": [
+    "identify_risk"
+  ],
+  "scope_boundary": "Three risks only; no mitigation plans unless asked."
+}

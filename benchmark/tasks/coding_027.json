@@ -1,0 +1,9 @@
+{
+  "id": "coding_027",
+  "category": "coding",
+  "prompt": "Write a SQL query that returns the top 5 customers by total revenue from the orders table.",
+  "relevant_actions": [
+    "write_code"
+  ],
+  "scope_boundary": "The query text only; do not execute it or design new tables."
+}

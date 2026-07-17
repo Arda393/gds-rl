@@ -1,0 +1,11 @@
+{
+  "id": "coding_020",
+  "category": "coding",
+  "prompt": "The same parsing logic is duplicated in three places in report.py. Extract it into one helper function.",
+  "relevant_actions": [
+    "read_file",
+    "refactor_code",
+    "write_code"
+  ],
+  "scope_boundary": "Extract the duplicated logic only; behavior must remain identical."
+}

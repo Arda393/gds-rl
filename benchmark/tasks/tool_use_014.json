@@ -1,0 +1,12 @@
+{
+  "id": "tool_use_014",
+  "category": "tool_use",
+  "prompt": "Convert report.json to a CSV with the columns id, name, and total.",
+  "relevant_actions": [
+    "read_file",
+    "parse_json",
+    "convert_format",
+    "write_file"
+  ],
+  "scope_boundary": "The three named columns only; no derived columns."
+}

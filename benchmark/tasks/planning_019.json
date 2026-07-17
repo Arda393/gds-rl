@@ -1,0 +1,9 @@
+{
+  "id": "planning_019",
+  "category": "planning",
+  "prompt": "Assign reviewers to the four open pull requests given each reviewer's expertise.",
+  "relevant_actions": [
+    "assign_resources"
+  ],
+  "scope_boundary": "Reviewer assignments only; do not review the code."
+}

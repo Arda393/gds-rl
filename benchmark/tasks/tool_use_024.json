@@ -1,0 +1,11 @@
+{
+  "id": "tool_use_024",
+  "category": "tool_use",
+  "prompt": "Call the GitHub API and return the star count of the given repository.",
+  "relevant_actions": [
+    "call_api",
+    "parse_json",
+    "return_data"
+  ],
+  "scope_boundary": "Star count only; no forks, issues, or repo analysis."
+}

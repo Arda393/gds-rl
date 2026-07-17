@@ -1,0 +1,9 @@
+{
+  "id": "planning_002",
+  "category": "planning",
+  "prompt": "Estimate the time required for each of the six tasks listed below.",
+  "relevant_actions": [
+    "estimate_time"
+  ],
+  "scope_boundary": "Time estimates only; do not reorder, merge, or add tasks."
+}

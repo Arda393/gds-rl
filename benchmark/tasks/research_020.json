@@ -1,0 +1,11 @@
+{
+  "id": "research_020",
+  "category": "research",
+  "prompt": "Find the boiling point of ethanol at standard pressure, with a source.",
+  "relevant_actions": [
+    "search_web",
+    "cite_source",
+    "return_data"
+  ],
+  "scope_boundary": "One value and one source; no chemistry lecture."
+}

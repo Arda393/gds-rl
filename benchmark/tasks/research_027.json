@@ -1,0 +1,11 @@
+{
+  "id": "research_027",
+  "category": "research",
+  "prompt": "Read the provided changelog and summarize what changed in version 2.0 only.",
+  "relevant_actions": [
+    "read_document",
+    "extract_text",
+    "summarize"
+  ],
+  "scope_boundary": "Version 2.0 only; ignore all other versions."
+}

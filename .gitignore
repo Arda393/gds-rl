@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Sanal ortam
+.venv/
+venv/
+env/
+
+# Model checkpoint'leri / buyuk agirliklar (TRUBA'da tutuluyor)
+results/checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+
+# HF / dataset cache
+hf_cache/
+.cache/
+
+# Gizli bilgiler (asla commit etme)
+*token*
+*.pem
+*_rsa
+*_ed25519
+.env
+
+# OS
+.DS_Store
+Thumbs.db

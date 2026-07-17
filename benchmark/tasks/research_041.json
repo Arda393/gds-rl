@@ -1,0 +1,11 @@
+{
+  "id": "research_041",
+  "category": "research",
+  "prompt": "Summarize what the provided API documentation says about rate limits.",
+  "relevant_actions": [
+    "read_document",
+    "extract_text",
+    "summarize"
+  ],
+  "scope_boundary": "Rate limits only; ignore authentication and endpoints."
+}

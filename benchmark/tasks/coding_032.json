@@ -1,0 +1,9 @@
+{
+  "id": "coding_032",
+  "category": "coding",
+  "prompt": "Implement fibonacci(n) with memoization.",
+  "relevant_actions": [
+    "write_code"
+  ],
+  "scope_boundary": "One memoized function; no benchmarking or alternative implementations."
+}

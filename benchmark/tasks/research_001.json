@@ -1,0 +1,11 @@
+{
+  "id": "research_001",
+  "category": "research",
+  "prompt": "Summarize the attached article in exactly 3 bullet points.",
+  "relevant_actions": [
+    "read_document",
+    "summarize",
+    "write_text"
+  ],
+  "scope_boundary": "Exactly 3 bullets; no opinions, recommendations, or extra sections."
+}

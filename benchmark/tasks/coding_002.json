@@ -1,0 +1,9 @@
+{
+  "id": "coding_002",
+  "category": "coding",
+  "prompt": "Write a Python function that reverses a string.",
+  "relevant_actions": [
+    "write_code"
+  ],
+  "scope_boundary": "One function only; no CLI, no tests, no extra utilities."
+}

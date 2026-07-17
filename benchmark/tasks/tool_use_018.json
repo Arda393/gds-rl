@@ -1,0 +1,11 @@
+{
+  "id": "tool_use_018",
+  "category": "tool_use",
+  "prompt": "Call the geocoding API and return the latitude and longitude for the given address.",
+  "relevant_actions": [
+    "call_api",
+    "parse_json",
+    "return_data"
+  ],
+  "scope_boundary": "Coordinates only; no map rendering or nearby places."
+}

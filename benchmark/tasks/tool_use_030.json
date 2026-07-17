@@ -1,0 +1,12 @@
+{
+  "id": "tool_use_030",
+  "category": "tool_use",
+  "prompt": "Fetch the sitemap.xml of the given site and return the number of URLs listed.",
+  "relevant_actions": [
+    "fetch_url",
+    "parse_xml",
+    "aggregate_data",
+    "return_data"
+  ],
+  "scope_boundary": "One count only; do not crawl or validate the URLs."
+}

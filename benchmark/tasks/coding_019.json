@@ -1,0 +1,10 @@
+{
+  "id": "coding_019",
+  "category": "coding",
+  "prompt": "Write a docstring for the calculate_tax() function describing its parameters and return value.",
+  "relevant_actions": [
+    "read_file",
+    "write_code"
+  ],
+  "scope_boundary": "Docstring only; do not change the function's behavior or signature."
+}

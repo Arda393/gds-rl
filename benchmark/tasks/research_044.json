@@ -1,0 +1,11 @@
+{
+  "id": "research_044",
+  "category": "research",
+  "prompt": "Find the speed of light in vacuum in meters per second, with an authoritative source.",
+  "relevant_actions": [
+    "search_web",
+    "cite_source",
+    "return_data"
+  ],
+  "scope_boundary": "One value and source; no physics explanation."
+}

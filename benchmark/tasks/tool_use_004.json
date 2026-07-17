@@ -1,0 +1,10 @@
+{
+  "id": "tool_use_004",
+  "category": "tool_use",
+  "prompt": "Query the orders table and return only the total row count.",
+  "relevant_actions": [
+    "query_database",
+    "return_data"
+  ],
+  "scope_boundary": "One count only; no sample rows or schema info."
+}

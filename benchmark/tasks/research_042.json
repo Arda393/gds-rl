@@ -1,0 +1,11 @@
+{
+  "id": "research_042",
+  "category": "research",
+  "prompt": "Compare the MIT and GPLv3 licenses on exactly two points: redistribution and derivative works.",
+  "relevant_actions": [
+    "search_web",
+    "compare_sources",
+    "write_text"
+  ],
+  "scope_boundary": "The two named points only; no license recommendation."
+}

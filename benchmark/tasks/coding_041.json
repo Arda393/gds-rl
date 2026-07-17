@@ -1,0 +1,10 @@
+{
+  "id": "coding_041",
+  "category": "coding",
+  "prompt": "Replace the print statements in worker.py with logging.info calls.",
+  "relevant_actions": [
+    "read_file",
+    "refactor_code"
+  ],
+  "scope_boundary": "Swap print for logging.info only; no log levels redesign or handler setup."
+}

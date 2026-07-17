@@ -1,0 +1,11 @@
+{
+  "id": "tool_use_013",
+  "category": "tool_use",
+  "prompt": "Fetch the given page and return all links inside the nav element.",
+  "relevant_actions": [
+    "fetch_url",
+    "parse_html",
+    "return_data"
+  ],
+  "scope_boundary": "Nav links only; do not crawl them or check their status."
+}

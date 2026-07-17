@@ -1,0 +1,10 @@
+{
+  "id": "planning_012",
+  "category": "planning",
+  "prompt": "Break the described feature into tasks of at most one day each.",
+  "relevant_actions": [
+    "list_steps",
+    "order_tasks"
+  ],
+  "scope_boundary": "Task breakdown only; no time estimates or assignments."
+}

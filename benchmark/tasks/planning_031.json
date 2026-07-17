@@ -1,0 +1,9 @@
+{
+  "id": "planning_031",
+  "category": "planning",
+  "prompt": "Estimate the total time to review a 2,000-line pull request at a careful pace.",
+  "relevant_actions": [
+    "estimate_time"
+  ],
+  "scope_boundary": "One estimate with assumptions; do not review any code."
+}

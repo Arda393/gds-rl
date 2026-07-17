@@ -1,0 +1,9 @@
+{
+  "id": "planning_021",
+  "category": "planning",
+  "prompt": "Estimate the catering cost for a 40-person one-day workshop.",
+  "relevant_actions": [
+    "estimate_cost"
+  ],
+  "scope_boundary": "Catering only; no venue, travel, or equipment costs."
+}

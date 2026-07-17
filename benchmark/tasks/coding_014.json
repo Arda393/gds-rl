@@ -1,0 +1,9 @@
+{
+  "id": "coding_014",
+  "category": "coding",
+  "prompt": "Implement binary search over a sorted list; return the index of the target or -1.",
+  "relevant_actions": [
+    "write_code"
+  ],
+  "scope_boundary": "Binary search only; do not implement sorting or other search algorithms."
+}

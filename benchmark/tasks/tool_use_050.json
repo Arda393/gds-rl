@@ -1,0 +1,11 @@
+{
+  "id": "tool_use_050",
+  "category": "tool_use",
+  "prompt": "Fetch the JSON at the given URL and pretty-print it to stdout.",
+  "relevant_actions": [
+    "fetch_url",
+    "parse_json",
+    "format_output"
+  ],
+  "scope_boundary": "Pretty-print only; do not filter or restructure the data."
+}

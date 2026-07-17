@@ -1,0 +1,11 @@
+{
+  "id": "research_033",
+  "category": "research",
+  "prompt": "From the provided news article, list the names of every organization mentioned.",
+  "relevant_actions": [
+    "read_document",
+    "extract_text",
+    "return_data"
+  ],
+  "scope_boundary": "Organization names only; no people or places."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "research_005",
+  "category": "research",
+  "prompt": "Read the provided paper and summarize only its methodology section.",
+  "relevant_actions": [
+    "read_document",
+    "extract_text",
+    "summarize"
+  ],
+  "scope_boundary": "Methodology only; ignore results, discussion, and conclusions."
+}

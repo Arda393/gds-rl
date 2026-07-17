@@ -1,0 +1,11 @@
+{
+  "id": "research_026",
+  "category": "research",
+  "prompt": "Find the GDP of Japan for the most recent reported year, and cite the source.",
+  "relevant_actions": [
+    "search_web",
+    "cite_source",
+    "return_data"
+  ],
+  "scope_boundary": "One figure with year and source; no economic analysis."
+}

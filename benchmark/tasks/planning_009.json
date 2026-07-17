@@ -1,0 +1,9 @@
+{
+  "id": "planning_009",
+  "category": "planning",
+  "prompt": "Estimate the monthly cloud hosting cost for the workload described below.",
+  "relevant_actions": [
+    "estimate_cost"
+  ],
+  "scope_boundary": "One cost estimate; no provider comparison or architecture redesign."
+}

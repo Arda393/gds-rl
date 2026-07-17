@@ -1,0 +1,11 @@
+{
+  "id": "research_032",
+  "category": "research",
+  "prompt": "Find the maximum depth of the Mariana Trench, with a source.",
+  "relevant_actions": [
+    "search_web",
+    "cite_source",
+    "return_data"
+  ],
+  "scope_boundary": "One depth value and source; no oceanography overview."
+}

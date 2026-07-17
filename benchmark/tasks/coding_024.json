@@ -1,0 +1,9 @@
+{
+  "id": "coding_024",
+  "category": "coding",
+  "prompt": "Write a function flatten(nested) that flattens arbitrarily nested lists.",
+  "relevant_actions": [
+    "write_code"
+  ],
+  "scope_boundary": "Lists only; do not handle dicts, tuples, or generators."
+}

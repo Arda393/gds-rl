@@ -1,0 +1,10 @@
+{
+  "id": "planning_026",
+  "category": "planning",
+  "prompt": "Prioritize the listed technical debt items by risk to production.",
+  "relevant_actions": [
+    "prioritize_items",
+    "identify_risk"
+  ],
+  "scope_boundary": "Ranked list only; do not plan the fixes."
+}

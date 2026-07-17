@@ -1,0 +1,11 @@
+{
+  "id": "research_022",
+  "category": "research",
+  "prompt": "From the provided bibliography, return only the entries published after 2020.",
+  "relevant_actions": [
+    "read_document",
+    "extract_text",
+    "return_data"
+  ],
+  "scope_boundary": "Filter by year only; do not reformat or annotate entries."
+}

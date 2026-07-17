@@ -1,0 +1,11 @@
+{
+  "id": "tool_use_038",
+  "category": "tool_use",
+  "prompt": "Request the given /status endpoint every 10 seconds for one minute and report any non-200 responses.",
+  "relevant_actions": [
+    "send_request",
+    "monitor_status",
+    "return_data"
+  ],
+  "scope_boundary": "Six checks over one minute; no alerting setup or longer monitoring."
+}

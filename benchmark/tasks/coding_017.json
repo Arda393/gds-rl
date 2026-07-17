@@ -1,0 +1,12 @@
+{
+  "id": "coding_017",
+  "category": "coding",
+  "prompt": "Sum the amount column in transactions.csv grouped by category, and return the totals.",
+  "relevant_actions": [
+    "read_file",
+    "parse_csv",
+    "aggregate_data",
+    "return_data"
+  ],
+  "scope_boundary": "Group totals only; no averages, charts, or anomaly detection."
+}

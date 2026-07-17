@@ -1,0 +1,10 @@
+{
+  "id": "planning_041",
+  "category": "planning",
+  "prompt": "Plan the rollout of a feature flag from 0% to 100% over two weeks in three stages.",
+  "relevant_actions": [
+    "write_plan",
+    "define_milestone"
+  ],
+  "scope_boundary": "Three rollout stages only; no implementation details."
+}

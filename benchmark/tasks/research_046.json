@@ -1,0 +1,11 @@
+{
+  "id": "research_046",
+  "category": "research",
+  "prompt": "List the ingredients mentioned in the provided recipe text.",
+  "relevant_actions": [
+    "read_document",
+    "extract_text",
+    "return_data"
+  ],
+  "scope_boundary": "Ingredients only; no instructions, substitutions, or nutrition facts."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "research_008",
+  "category": "research",
+  "prompt": "Extract every statistic mentioned in the provided press release.",
+  "relevant_actions": [
+    "read_document",
+    "extract_text",
+    "return_data"
+  ],
+  "scope_boundary": "Statistics only; do not verify or contextualize them."
+}

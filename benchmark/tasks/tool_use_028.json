@@ -1,0 +1,9 @@
+{
+  "id": "tool_use_028",
+  "category": "tool_use",
+  "prompt": "Schedule a job for Friday at 09:00 that runs notify.py.",
+  "relevant_actions": [
+    "schedule_job"
+  ],
+  "scope_boundary": "Create the schedule only; do not run or edit notify.py."
+}

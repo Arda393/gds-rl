@@ -1,0 +1,9 @@
+{
+  "id": "coding_035",
+  "category": "coding",
+  "prompt": "Write a decorator @timed that prints how long the wrapped function takes to run.",
+  "relevant_actions": [
+    "write_code"
+  ],
+  "scope_boundary": "One decorator only; no logging framework or profiling suite."
+}

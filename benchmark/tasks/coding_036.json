@@ -1,0 +1,11 @@
+{
+  "id": "coding_036",
+  "category": "coding",
+  "prompt": "Parse catalog.xml and return the text of every <title> element.",
+  "relevant_actions": [
+    "read_file",
+    "parse_xml",
+    "return_data"
+  ],
+  "scope_boundary": "Title elements only; ignore all other tags and attributes."
+}

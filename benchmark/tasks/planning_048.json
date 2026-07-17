@@ -1,0 +1,9 @@
+{
+  "id": "planning_048",
+  "category": "planning",
+  "prompt": "Define three measurable milestones for improving test coverage from 40% to 80%.",
+  "relevant_actions": [
+    "define_milestone"
+  ],
+  "scope_boundary": "Three milestones with target numbers; no test writing."
+}

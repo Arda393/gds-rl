@@ -1,0 +1,9 @@
+{
+  "id": "coding_038",
+  "category": "coding",
+  "prompt": "Implement bubble sort for a list of integers.",
+  "relevant_actions": [
+    "write_code"
+  ],
+  "scope_boundary": "Bubble sort only; do not add other sorting algorithms or comparisons."
+}

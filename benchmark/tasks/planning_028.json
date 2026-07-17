@@ -1,0 +1,10 @@
+{
+  "id": "planning_028",
+  "category": "planning",
+  "prompt": "Define quarterly milestones for migrating 12 services to Kubernetes over one year.",
+  "relevant_actions": [
+    "define_milestone",
+    "write_plan"
+  ],
+  "scope_boundary": "Four quarterly milestones; no per-service technical detail."
+}

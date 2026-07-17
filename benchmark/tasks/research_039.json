@@ -1,0 +1,11 @@
+{
+  "id": "research_039",
+  "category": "research",
+  "prompt": "Extract the points from the limitations section of the provided paper as a bullet list.",
+  "relevant_actions": [
+    "read_document",
+    "extract_text",
+    "return_data"
+  ],
+  "scope_boundary": "Limitations section only; do not propose solutions."
+}

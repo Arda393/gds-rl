@@ -1,0 +1,11 @@
+{
+  "id": "research_017",
+  "category": "research",
+  "prompt": "Identify the three most-cited papers on graph neural networks and give their citation counts with sources.",
+  "relevant_actions": [
+    "search_web",
+    "compare_sources",
+    "cite_source"
+  ],
+  "scope_boundary": "Three papers with counts and sources; no content summaries."
+}

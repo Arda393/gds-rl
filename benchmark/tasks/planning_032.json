@@ -1,0 +1,9 @@
+{
+  "id": "planning_032",
+  "category": "planning",
+  "prompt": "Identify the top risks of upgrading the production database major version in place.",
+  "relevant_actions": [
+    "identify_risk"
+  ],
+  "scope_boundary": "Risks only; no upgrade plan or vendor comparison."
+}

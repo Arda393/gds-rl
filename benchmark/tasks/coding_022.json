@@ -1,0 +1,9 @@
+{
+  "id": "coding_022",
+  "category": "coding",
+  "prompt": "Implement a Caesar cipher encoder with a configurable shift.",
+  "relevant_actions": [
+    "write_code"
+  ],
+  "scope_boundary": "Encoder only; no decoder, no brute-force cracker."
+}

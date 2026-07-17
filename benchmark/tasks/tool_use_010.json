@@ -1,0 +1,12 @@
+{
+  "id": "tool_use_010",
+  "category": "tool_use",
+  "prompt": "Download the CSV at the given URL and verify it has exactly 12 columns; report yes or no.",
+  "relevant_actions": [
+    "fetch_url",
+    "parse_csv",
+    "validate_data",
+    "return_data"
+  ],
+  "scope_boundary": "Column count check only; do not analyze the data."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "planning_044",
+  "category": "planning",
+  "prompt": "Identify the top three risks in the action plan of the provided incident postmortem draft.",
+  "relevant_actions": [
+    "identify_risk"
+  ],
+  "scope_boundary": "Three risks in the action plan only; do not rewrite the postmortem."
+}

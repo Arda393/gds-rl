@@ -1,0 +1,11 @@
+{
+  "id": "coding_003",
+  "category": "coding",
+  "prompt": "The loop in process_items() skips the last element. Fix the off-by-one bug.",
+  "relevant_actions": [
+    "read_file",
+    "debug_code",
+    "write_code"
+  ],
+  "scope_boundary": "Fix only the off-by-one bug; do not refactor or restyle other code."
+}

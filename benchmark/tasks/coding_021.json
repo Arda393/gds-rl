@@ -1,0 +1,9 @@
+{
+  "id": "coding_021",
+  "category": "coding",
+  "prompt": "Merge two sorted lists into one sorted list without using sort().",
+  "relevant_actions": [
+    "write_code"
+  ],
+  "scope_boundary": "Merge logic only; do not generalize to N lists or add type handling."
+}

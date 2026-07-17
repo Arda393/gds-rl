@@ -1,0 +1,11 @@
+{
+  "id": "coding_043",
+  "category": "coding",
+  "prompt": "The while loop in poll() never terminates. Fix the exit condition.",
+  "relevant_actions": [
+    "read_file",
+    "debug_code",
+    "write_code"
+  ],
+  "scope_boundary": "Fix the exit condition only; no rewrite of the polling mechanism."
+}

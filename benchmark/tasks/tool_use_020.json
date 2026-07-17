@@ -1,0 +1,10 @@
+{
+  "id": "tool_use_020",
+  "category": "tool_use",
+  "prompt": "Compress every .log file in the current directory into one archive named logs_backup.zip.",
+  "relevant_actions": [
+    "read_file",
+    "compress_file"
+  ],
+  "scope_boundary": ".log files only; do not include other file types or delete originals."
+}

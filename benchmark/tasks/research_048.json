@@ -1,0 +1,11 @@
+{
+  "id": "research_048",
+  "category": "research",
+  "prompt": "Summarize the data retention section of the provided privacy policy in two sentences.",
+  "relevant_actions": [
+    "read_document",
+    "extract_text",
+    "summarize"
+  ],
+  "scope_boundary": "Data retention only; ignore other policy sections."
+}

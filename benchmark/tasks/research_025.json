@@ -1,0 +1,11 @@
+{
+  "id": "research_025",
+  "category": "research",
+  "prompt": "Extract the main hypothesis from the provided study abstract.",
+  "relevant_actions": [
+    "read_document",
+    "extract_text",
+    "return_data"
+  ],
+  "scope_boundary": "The hypothesis only; do not assess whether it was confirmed."
+}

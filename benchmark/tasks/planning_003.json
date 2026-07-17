@@ -1,0 +1,9 @@
+{
+  "id": "planning_003",
+  "category": "planning",
+  "prompt": "Order the provided backlog items by their dependencies.",
+  "relevant_actions": [
+    "order_tasks"
+  ],
+  "scope_boundary": "Ordering only; do not estimate, remove, or add items."
+}

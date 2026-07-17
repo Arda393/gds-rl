@@ -1,0 +1,10 @@
+{
+  "id": "planning_011",
+  "category": "planning",
+  "prompt": "Draft a one-week onboarding plan for a new backend developer.",
+  "relevant_actions": [
+    "write_plan",
+    "list_steps"
+  ],
+  "scope_boundary": "One week only; no 30/60/90-day extensions."
+}

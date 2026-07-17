@@ -1,0 +1,11 @@
+{
+  "id": "research_002",
+  "category": "research",
+  "prompt": "Find the year the paper 'Attention Is All You Need' was published and return the year with a source.",
+  "relevant_actions": [
+    "search_web",
+    "cite_source",
+    "return_data"
+  ],
+  "scope_boundary": "Year and one source only; no summary of the paper."
+}

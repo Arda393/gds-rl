@@ -1,0 +1,11 @@
+{
+  "id": "tool_use_044",
+  "category": "tool_use",
+  "prompt": "Compress the images/ directory into images.tar.gz and report the archive size.",
+  "relevant_actions": [
+    "read_file",
+    "compress_file",
+    "return_data"
+  ],
+  "scope_boundary": "Archive and size only; do not resize or convert images."
+}

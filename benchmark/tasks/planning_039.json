@@ -1,0 +1,10 @@
+{
+  "id": "planning_039",
+  "category": "planning",
+  "prompt": "Create a definition-of-done checklist for frontend tickets.",
+  "relevant_actions": [
+    "list_steps",
+    "write_plan"
+  ],
+  "scope_boundary": "One checklist; do not define team processes beyond it."
+}

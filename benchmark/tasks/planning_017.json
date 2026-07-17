@@ -1,0 +1,9 @@
+{
+  "id": "planning_017",
+  "category": "planning",
+  "prompt": "List the steps to set up CI for a Python repository.",
+  "relevant_actions": [
+    "list_steps"
+  ],
+  "scope_boundary": "Steps only; do not write pipeline config files."
+}

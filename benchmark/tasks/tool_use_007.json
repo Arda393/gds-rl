@@ -1,0 +1,11 @@
+{
+  "id": "tool_use_007",
+  "category": "tool_use",
+  "prompt": "Fetch the RSS feed at the given URL and return the titles of the 5 most recent items.",
+  "relevant_actions": [
+    "fetch_url",
+    "parse_xml",
+    "return_data"
+  ],
+  "scope_boundary": "Five titles only; no summaries or links."
+}

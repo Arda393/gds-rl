@@ -1,0 +1,1054 @@
+{
+  "model": "results/checkpoints/qwen1.5b_grpo_nli_only",
+  "phase": "plan_eval",
+  "split": "test",
+  "gds_formula": "0.3*emb + 0.3*nli + 0.4*act (greedy, single-turn plan)",
+  "generation_seconds": 3.1,
+  "summary": {
+    "n_tasks": 40,
+    "avg_gds": 0.1235,
+    "avg_emb": 0.2786,
+    "avg_nli": 0.1279,
+    "avg_act": 0.0,
+    "avg_f1": 0.625,
+    "avg_precision": 0.975,
+    "avg_recall": 0.4979,
+    "avg_coverage": 0.4979,
+    "avg_n_actions": 1.0,
+    "invalid_action_rate": 0.025,
+    "completion_rate": 0.0,
+    "tasks_with_out_of_scope": 0,
+    "per_category": {
+      "coding": {
+        "n": 10,
+        "avg_gds": 0.1635,
+        "avg_act": 0.0,
+        "avg_f1": 0.62,
+        "completion_rate": 0.0
+      },
+      "planning": {
+        "n": 10,
+        "avg_gds": 0.1119,
+        "avg_act": 0.0,
+        "avg_f1": 0.8,
+        "completion_rate": 0.0
+      },
+      "research": {
+        "n": 10,
+        "avg_gds": 0.1023,
+        "avg_act": 0.0,
+        "avg_f1": 0.5,
+        "completion_rate": 0.0
+      },
+      "tool_use": {
+        "n": 10,
+        "avg_gds": 0.1162,
+        "avg_act": 0.0,
+        "avg_f1": 0.58,
+        "completion_rate": 0.0
+      }
+    }
+  },
+  "records": [
+    {
+      "gds": 0.0725,
+      "emb": 0.2164,
+      "nli": 0.0254,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "coverage": 0.25,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "parse_json"
+      ],
+      "valid_actions": [
+        "parse_json"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "coding_005",
+      "category": "coding",
+      "completion": "ACTION: parse_json: Config Section - Database | config.json"
+    },
+    {
+      "gds": 0.1241,
+      "emb": 0.1647,
+      "nli": 0.2491,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "coverage": 0.5,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "write_code"
+      ],
+      "valid_actions": [
+        "write_code"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "coding_010",
+      "category": "coding",
+      "completion": "ACTION: write_code: Renaming 'x' to 'total' in utils.py"
+    },
+    {
+      "gds": 0.1687,
+      "emb": 0.3253,
+      "nli": 0.2369,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "coverage": 0.25,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "aggregate_data"
+      ],
+      "valid_actions": [
+        "aggregate_data"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "coding_012",
+      "category": "coding",
+      "completion": "ACTION: aggregate_data: Word Frequencies | article.txt"
+    },
+    {
+      "gds": 0.0567,
+      "emb": 0.1499,
+      "nli": 0.0392,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "coverage": 0.25,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "aggregate_data"
+      ],
+      "valid_actions": [
+        "aggregate_data"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "coding_017",
+      "category": "coding",
+      "completion": "ACTION: aggregate_data: Amount Column Totals by Category | Transactions.csv"
+    },
+    {
+      "gds": 0.1539,
+      "emb": 0.1909,
+      "nli": 0.117,
+      "act": null,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "coverage": 0.0,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 0,
+      "actions": [
+        "extract"
+      ],
+      "valid_actions": [],
+      "out_of_scope_actions": [],
+      "invalid_actions": [
+        "extract"
+      ],
+      "id": "coding_020",
+      "category": "coding",
+      "completion": "ACTION: extract parsing logic from report.py"
+    },
+    {
+      "gds": 0.2824,
+      "emb": 0.5662,
+      "nli": 0.3753,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "write_code"
+      ],
+      "valid_actions": [
+        "write_code"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "coding_024",
+      "category": "coding",
+      "completion": "ACTION: write_code: Flatten Function"
+    },
+    {
+      "gds": 0.3066,
+      "emb": 0.4321,
+      "nli": 0.5901,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "write_code"
+      ],
+      "valid_actions": [
+        "write_code"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "coding_026",
+      "category": "coding",
+      "completion": "ACTION: write_code: Stack Class Implementation"
+    },
+    {
+      "gds": 0.1306,
+      "emb": 0.3013,
+      "nli": 0.1339,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "write_code"
+      ],
+      "valid_actions": [
+        "write_code"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "coding_027",
+      "category": "coding",
+      "completion": "ACTION: write_code: Top 5 Customers by Total Revenue"
+    },
+    {
+      "gds": 0.1971,
+      "emb": 0.2756,
+      "nli": 0.3816,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "coverage": 0.5,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "run_code"
+      ],
+      "valid_actions": [
+        "run_code"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "coding_030",
+      "category": "coding",
+      "completion": "ACTION: run_code: Backup file's MD5 checksum"
+    },
+    {
+      "gds": 0.1424,
+      "emb": 0.3928,
+      "nli": 0.0818,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "coverage": 0.5,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "write_test"
+      ],
+      "valid_actions": [
+        "write_test"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "coding_046",
+      "category": "coding",
+      "completion": "ACTION: write_test: Divide(a, b) Tests"
+    },
+    {
+      "gds": 0.0818,
+      "emb": 0.2027,
+      "nli": 0.0699,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "prioritize_items"
+      ],
+      "valid_actions": [
+        "prioritize_items"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "planning_006",
+      "category": "planning",
+      "completion": "ACTION: prioritize_items: Bug List by Severity & Impact"
+    },
+    {
+      "gds": 0.0722,
+      "emb": 0.147,
+      "nli": 0.0937,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "coverage": 0.5,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "estimate_time"
+      ],
+      "valid_actions": [
+        "estimate_time"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "planning_014",
+      "category": "planning",
+      "completion": "ACTION: estimate_time: Number of Sprints for 12 Stories with Velocity of 20 Points"
+    },
+    {
+      "gds": 0.0866,
+      "emb": 0.2571,
+      "nli": 0.0315,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "coverage": 0.5,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "define_milestone"
+      ],
+      "valid_actions": [
+        "define_milestone"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "planning_018",
+      "category": "planning",
+      "completion": "ACTION: define_milestone: MVP Milestones"
+    },
+    {
+      "gds": 0.0975,
+      "emb": 0.2628,
+      "nli": 0.0621,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "coverage": 0.5,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "order_tasks"
+      ],
+      "valid_actions": [
+        "order_tasks"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "planning_023",
+      "category": "planning",
+      "completion": "ACTION: order_tasks: Maintenance Jobs | Minimize Total Downtime"
+    },
+    {
+      "gds": 0.1516,
+      "emb": 0.404,
+      "nli": 0.1014,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "coverage": 0.5,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "write_plan"
+      ],
+      "valid_actions": [
+        "write_plan"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "planning_025",
+      "category": "planning",
+      "completion": "ACTION: write_plan: Study SQL Basics"
+    },
+    {
+      "gds": 0.0297,
+      "emb": 0.0799,
+      "nli": 0.0191,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "coverage": 0.5,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "define_milestone"
+      ],
+      "valid_actions": [
+        "define_milestone"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "planning_028",
+      "category": "planning",
+      "completion": "ACTION: define_milestone: Quarterly Milestones - Migrating 12 Services to Kubernetes"
+    },
+    {
+      "gds": 0.0898,
+      "emb": 0.236,
+      "nli": 0.0633,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "list_steps"
+      ],
+      "valid_actions": [
+        "list_steps"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "planning_029",
+      "category": "planning",
+      "completion": "ACTION: list_steps: Rotate Production API Keys"
+    },
+    {
+      "gds": 0.077,
+      "emb": 0.225,
+      "nli": 0.0315,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "estimate_cost"
+      ],
+      "valid_actions": [
+        "estimate_cost"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "planning_038",
+      "category": "planning",
+      "completion": "ACTION: estimate_cost: Monthly Cost of Data Pipeline"
+    },
+    {
+      "gds": 0.1899,
+      "emb": 0.2841,
+      "nli": 0.349,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "coverage": 0.5,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "assign_resources"
+      ],
+      "valid_actions": [
+        "assign_resources"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "planning_042",
+      "category": "planning",
+      "completion": "ACTION: assign_resources: GPU Hours Allocation | Experiments A, B, C"
+    },
+    {
+      "gds": 0.2428,
+      "emb": 0.4211,
+      "nli": 0.3884,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "check_constraint"
+      ],
+      "valid_actions": [
+        "check_constraint"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "planning_049",
+      "category": "planning",
+      "completion": "ACTION: check_constraint: Travel Itinerary Layover Constraint"
+    },
+    {
+      "gds": 0.1578,
+      "emb": 0.4425,
+      "nli": 0.0835,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "coverage": 0.3333,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "summarize"
+      ],
+      "valid_actions": [
+        "summarize"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "research_001",
+      "category": "research",
+      "completion": "ACTION: summarize: Article Summary"
+    },
+    {
+      "gds": 0.1068,
+      "emb": 0.3017,
+      "nli": 0.0544,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "coverage": 0.3333,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "cite_source"
+      ],
+      "valid_actions": [
+        "cite_source"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "research_002",
+      "category": "research",
+      "completion": "ACTION: cite_source: Year 'Attention Is All You Need' was published"
+    },
+    {
+      "gds": 0.0379,
+      "emb": 0.0781,
+      "nli": 0.0481,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "coverage": 0.3333,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "cite_source"
+      ],
+      "valid_actions": [
+        "cite_source"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "research_004",
+      "category": "research",
+      "completion": "ACTION: cite_source: Five Peer-Reviewed Papers on Reinforcement Learning from Human Feedback"
+    },
+    {
+      "gds": 0.0897,
+      "emb": 0.2318,
+      "nli": 0.0671,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "coverage": 0.3333,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "cite_source"
+      ],
+      "valid_actions": [
+        "cite_source"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "research_010",
+      "category": "research",
+      "completion": "ACTION: cite_source: Original Release Date of Python 3.0"
+    },
+    {
+      "gds": 0.0916,
+      "emb": 0.2672,
+      "nli": 0.0383,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "coverage": 0.3333,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "return_data"
+      ],
+      "valid_actions": [
+        "return_data"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "research_014",
+      "category": "research",
+      "completion": "ACTION: return_data: Country that hosted 2014 FIFA World Cup"
+    },
+    {
+      "gds": 0.0842,
+      "emb": 0.2532,
+      "nli": 0.0274,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "coverage": 0.3333,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "summarize"
+      ],
+      "valid_actions": [
+        "summarize"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "research_016",
+      "category": "research",
+      "completion": "ACTION: summarize: Product Announcement Summary"
+    },
+    {
+      "gds": 0.0736,
+      "emb": 0.1897,
+      "nli": 0.0555,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "coverage": 0.3333,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "cite_source"
+      ],
+      "valid_actions": [
+        "cite_source"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "research_020",
+      "category": "research",
+      "completion": "ACTION: cite_source: Boiling Point of Ethanol at Standard Pressure"
+    },
+    {
+      "gds": 0.1503,
+      "emb": 0.4366,
+      "nli": 0.0643,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "coverage": 0.3333,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "extract_text"
+      ],
+      "valid_actions": [
+        "extract_text"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "research_030",
+      "category": "research",
+      "completion": "ACTION: extract_text: Pros and Cons of Remote Work | Survey Report"
+    },
+    {
+      "gds": 0.1153,
+      "emb": 0.2375,
+      "nli": 0.1468,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "coverage": 0.3333,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "compare_sources"
+      ],
+      "valid_actions": [
+        "compare_sources"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "research_042",
+      "category": "research",
+      "completion": "ACTION: compare_sources: MIT vs GPLv3 Licenses"
+    },
+    {
+      "gds": 0.1157,
+      "emb": 0.3168,
+      "nli": 0.069,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "coverage": 0.3333,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "extract_text"
+      ],
+      "valid_actions": [
+        "extract_text"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "research_043",
+      "category": "research",
+      "completion": "ACTION: extract_text: Interviewer's Questions"
+    },
+    {
+      "gds": 0.1039,
+      "emb": 0.2789,
+      "nli": 0.0675,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "coverage": 0.5,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "fetch_url"
+      ],
+      "valid_actions": [
+        "fetch_url"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "tool_use_001",
+      "category": "tool_use",
+      "completion": "ACTION: fetch_url: Raw Content - https://example.com"
+    },
+    {
+      "gds": 0.144,
+      "emb": 0.3974,
+      "nli": 0.0826,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "coverage": 0.3333,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "return_data"
+      ],
+      "valid_actions": [
+        "return_data"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "tool_use_007",
+      "category": "tool_use",
+      "completion": "ACTION: return_data: Latest Titles from Feed"
+    },
+    {
+      "gds": 0.089,
+      "emb": 0.2046,
+      "nli": 0.0922,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "schedule_job"
+      ],
+      "valid_actions": [
+        "schedule_job"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "tool_use_011",
+      "category": "tool_use",
+      "completion": "ACTION: schedule_job: Cleanup Script Daily Run"
+    },
+    {
+      "gds": 0.0742,
+      "emb": 0.174,
+      "nli": 0.0732,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "coverage": 0.5,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "send_request"
+      ],
+      "valid_actions": [
+        "send_request"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "tool_use_015",
+      "category": "tool_use",
+      "completion": "ACTION: send_request: Get Response Status Code | API Endpoint: [given API endpoint] | Header: X-Token: [X-Token value]| Read Response"
+    },
+    {
+      "gds": 0.1221,
+      "emb": 0.3144,
+      "nli": 0.0926,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "coverage": 0.3333,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "call_api"
+      ],
+      "valid_actions": [
+        "call_api"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "tool_use_018",
+      "category": "tool_use",
+      "completion": "ACTION: call_api: Geocoding API - Address Coordinates | \"Given Address\""
+    },
+    {
+      "gds": 0.1343,
+      "emb": 0.3781,
+      "nli": 0.0696,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "coverage": 0.25,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "validate_data"
+      ],
+      "valid_actions": [
+        "validate_data"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "tool_use_019",
+      "category": "tool_use",
+      "completion": "ACTION: validate_data: Orders Records Validation"
+    },
+    {
+      "gds": 0.066,
+      "emb": 0.1856,
+      "nli": 0.0343,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "coverage": 0.5,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "compress_file"
+      ],
+      "valid_actions": [
+        "compress_file"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "tool_use_020",
+      "category": "tool_use",
+      "completion": "ACTION: compress_file: Logs Backup | All .log files"
+    },
+    {
+      "gds": 0.1248,
+      "emb": 0.3853,
+      "nli": 0.0305,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "coverage": 0.25,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "convert_format"
+      ],
+      "valid_actions": [
+        "convert_format"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "tool_use_023",
+      "category": "tool_use",
+      "completion": "ACTION: convert_format: XML Export to JSON | export.json"
+    },
+    {
+      "gds": 0.0838,
+      "emb": 0.2276,
+      "nli": 0.0516,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "coverage": 0.3333,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "call_api"
+      ],
+      "valid_actions": [
+        "call_api"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "tool_use_024",
+      "category": "tool_use",
+      "completion": "ACTION: call_api: Star Count of Repository"
+    },
+    {
+      "gds": 0.2203,
+      "emb": 0.3076,
+      "nli": 0.4269,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "coverage": 0.3333,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "query_database"
+      ],
+      "valid_actions": [
+        "query_database"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "tool_use_031",
+      "category": "tool_use",
+      "completion": "ACTION: query_database: Events Table - Top 5 Recent Events"
+    }
+  ]
+}

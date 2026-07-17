@@ -1,0 +1,12 @@
+{
+  "id": "tool_use_049",
+  "category": "tool_use",
+  "prompt": "Validate the email column of subscribers.csv and write only the valid rows to clean.csv.",
+  "relevant_actions": [
+    "read_file",
+    "parse_csv",
+    "validate_data",
+    "write_file"
+  ],
+  "scope_boundary": "Email validity filter only; do not change other fields."
+}

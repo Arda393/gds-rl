@@ -1,0 +1,10 @@
+{
+  "id": "planning_027",
+  "category": "planning",
+  "prompt": "Check whether the proposed feature list fits in the stated $5,000 budget; show the math.",
+  "relevant_actions": [
+    "check_constraint",
+    "estimate_cost"
+  ],
+  "scope_boundary": "Budget check only; do not renegotiate scope or prices."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "coding_013",
+  "category": "coding",
+  "prompt": "Convert settings.json to YAML format and save it as settings.yaml.",
+  "relevant_actions": [
+    "read_file",
+    "parse_json",
+    "convert_format",
+    "write_file"
+  ],
+  "scope_boundary": "Format conversion only; keys and values must stay unchanged."
+}

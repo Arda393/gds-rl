@@ -1,0 +1,10 @@
+{
+  "id": "planning_024",
+  "category": "planning",
+  "prompt": "Identify which two tasks in the list can run in parallel.",
+  "relevant_actions": [
+    "order_tasks",
+    "check_constraint"
+  ],
+  "scope_boundary": "Name the parallel pair only; no full schedule."
+}

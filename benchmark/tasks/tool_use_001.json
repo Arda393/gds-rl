@@ -1,0 +1,10 @@
+{
+  "id": "tool_use_001",
+  "category": "tool_use",
+  "prompt": "Fetch https://example.com and save the raw HTML to page.html without modifying it.",
+  "relevant_actions": [
+    "fetch_url",
+    "write_file"
+  ],
+  "scope_boundary": "Raw save only; no parsing, cleaning, or screenshots."
+}

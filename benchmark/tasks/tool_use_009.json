@@ -1,0 +1,11 @@
+{
+  "id": "tool_use_009",
+  "category": "tool_use",
+  "prompt": "Check whether the service at the given health endpoint is up; return the HTTP status code.",
+  "relevant_actions": [
+    "send_request",
+    "monitor_status",
+    "return_data"
+  ],
+  "scope_boundary": "One status check; no retries, alerts, or dashboards."
+}

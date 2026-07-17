@@ -1,0 +1,11 @@
+{
+  "id": "research_013",
+  "category": "research",
+  "prompt": "Summarize the provided meeting transcript into five action items.",
+  "relevant_actions": [
+    "read_document",
+    "summarize",
+    "write_text"
+  ],
+  "scope_boundary": "Five action items only; no commentary on the meeting itself."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "planning_030",
+  "category": "planning",
+  "prompt": "Assign on-call shifts for next week across the three engineers with no back-to-back shifts.",
+  "relevant_actions": [
+    "assign_resources",
+    "check_constraint"
+  ],
+  "scope_boundary": "One week of shifts; do not change the on-call policy."
+}

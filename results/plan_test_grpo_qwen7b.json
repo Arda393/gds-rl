@@ -1,0 +1,1173 @@
+{
+  "model": "results/checkpoints/qwen7b_grpo",
+  "phase": "plan_eval",
+  "split": "test",
+  "gds_formula": "0.3*emb + 0.3*nli + 0.4*act (greedy, single-turn plan)",
+  "generation_seconds": 5.5,
+  "summary": {
+    "n_tasks": 40,
+    "avg_gds": 0.4723,
+    "avg_emb": 0.7362,
+    "avg_nli": 0.7826,
+    "avg_act": 0.0417,
+    "avg_f1": 0.8073,
+    "avg_precision": 0.9208,
+    "avg_recall": 0.7521,
+    "avg_coverage": 0.7521,
+    "avg_n_actions": 2.35,
+    "invalid_action_rate": 0.0638,
+    "completion_rate": 0.875,
+    "tasks_with_out_of_scope": 4,
+    "per_category": {
+      "coding": {
+        "n": 10,
+        "avg_gds": 0.4956,
+        "avg_act": 0.0333,
+        "avg_f1": 0.77,
+        "completion_rate": 0.9
+      },
+      "planning": {
+        "n": 10,
+        "avg_gds": 0.478,
+        "avg_act": 0.1333,
+        "avg_f1": 0.8133,
+        "completion_rate": 0.8
+      },
+      "research": {
+        "n": 10,
+        "avg_gds": 0.494,
+        "avg_act": 0.0,
+        "avg_f1": 0.7867,
+        "completion_rate": 1.0
+      },
+      "tool_use": {
+        "n": 10,
+        "avg_gds": 0.4216,
+        "avg_act": 0.0,
+        "avg_f1": 0.859,
+        "completion_rate": 0.8
+      }
+    }
+  },
+  "records": [
+    {
+      "gds": 0.4498,
+      "emb": 0.6328,
+      "nli": 0.8666,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "coverage": 0.5,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 2,
+      "n_valid_actions": 2,
+      "actions": [
+        "parse_json",
+        "return_data"
+      ],
+      "valid_actions": [
+        "parse_json",
+        "return_data"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "coding_005",
+      "category": "coding",
+      "completion": "ACTION: parse_json\nACTION: return_data\nDONE"
+    },
+    {
+      "gds": 0.3389,
+      "emb": 0.3031,
+      "nli": 0.8266,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "coverage": 0.5,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "write_code"
+      ],
+      "valid_actions": [
+        "write_code"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "coding_010",
+      "category": "coding",
+      "completion": "ACTION: write_code\nwrite_code: Replace all occurrences of 'f' with 'total' in utils.py\n\nDONE"
+    },
+    {
+      "gds": 0.3995,
+      "emb": 0.5215,
+      "nli": 0.8102,
+      "act": 0.0,
+      "precision": 0.3333,
+      "recall": 0.5,
+      "f1": 0.4,
+      "coverage": 0.5,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 6,
+      "n_valid_actions": 2,
+      "actions": [
+        "open_file",
+        "parse_text_into_words",
+        "count_word_frequencies",
+        "get_data",
+        "sort_data",
+        "return_data"
+      ],
+      "valid_actions": [
+        "sort_data",
+        "return_data"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [
+        "open_file",
+        "parse_text_into_words",
+        "count_word_frequencies",
+        "get_data"
+      ],
+      "id": "coding_012",
+      "category": "coding",
+      "completion": "ACTION: open_file\nACTION: parse_text_into_words\nACTION: count_word_frequencies\nACTION: get_data\nACTION: sort_data\nACTION: return_data\nDONE"
+    },
+    {
+      "gds": 0.381,
+      "emb": 0.5172,
+      "nli": 0.7527,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "coverage": 0.5,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 2,
+      "n_valid_actions": 2,
+      "actions": [
+        "parse_csv",
+        "aggregate_data"
+      ],
+      "valid_actions": [
+        "parse_csv",
+        "aggregate_data"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "coding_017",
+      "category": "coding",
+      "completion": "ACTION: parse_csv\nACTION: aggregate_data\nDONE"
+    },
+    {
+      "gds": 0.5308,
+      "emb": 0.8287,
+      "nli": 0.9406,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "coverage": 0.3333,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "refactor_code"
+      ],
+      "valid_actions": [
+        "refactor_code"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "coding_020",
+      "category": "coding",
+      "completion": "ACTION: refactor_code\nDONE"
+    },
+    {
+      "gds": 0.5668,
+      "emb": 0.9384,
+      "nli": 0.9509,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "write_code"
+      ],
+      "valid_actions": [
+        "write_code"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "coding_024",
+      "category": "coding",
+      "completion": "ACTION: write_code\nDONE"
+    },
+    {
+      "gds": 0.5521,
+      "emb": 0.8812,
+      "nli": 0.9592,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "write_code"
+      ],
+      "valid_actions": [
+        "write_code"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "coding_026",
+      "category": "coding",
+      "completion": "ACTION: write_code"
+    },
+    {
+      "gds": 0.5954,
+      "emb": 1.0,
+      "nli": 0.9846,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "write_code"
+      ],
+      "valid_actions": [
+        "write_code"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "coding_027",
+      "category": "coding",
+      "completion": "ACTION: write_code\nDONE"
+    },
+    {
+      "gds": 0.6881,
+      "emb": 0.9338,
+      "nli": 0.9153,
+      "act": 0.3333,
+      "precision": 0.6667,
+      "recall": 1.0,
+      "f1": 0.8,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 3,
+      "n_valid_actions": 3,
+      "actions": [
+        "fetch_url",
+        "write_code",
+        "run_code"
+      ],
+      "valid_actions": [
+        "fetch_url",
+        "write_code",
+        "run_code"
+      ],
+      "out_of_scope_actions": [
+        "fetch_url"
+      ],
+      "invalid_actions": [],
+      "id": "coding_030",
+      "category": "coding",
+      "completion": "ACTION: fetch_url\nACTION: write_code\nACTION: run_code\nDONE"
+    },
+    {
+      "gds": 0.4535,
+      "emb": 0.7839,
+      "nli": 0.7277,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.5,
+      "completed_clean": true,
+      "n_actions": 3,
+      "n_valid_actions": 3,
+      "actions": [
+        "write_test",
+        "write_test",
+        "run_test"
+      ],
+      "valid_actions": [
+        "write_test",
+        "write_test",
+        "run_test"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "coding_046",
+      "category": "coding",
+      "completion": "ACTION: write_test\nACTION: write_test\nACTION: run_test\nDONE"
+    },
+    {
+      "gds": 0.4439,
+      "emb": 0.6937,
+      "nli": 0.7861,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "prioritize_items"
+      ],
+      "valid_actions": [
+        "prioritize_items"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "planning_006",
+      "category": "planning",
+      "completion": "ACTION: prioritize_items\nDONE"
+    },
+    {
+      "gds": 0.6859,
+      "emb": 0.7612,
+      "nli": 0.8584,
+      "act": 0.5,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "coverage": 0.5,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 2,
+      "n_valid_actions": 2,
+      "actions": [
+        "estimate_time",
+        "define_milestone"
+      ],
+      "valid_actions": [
+        "estimate_time",
+        "define_milestone"
+      ],
+      "out_of_scope_actions": [
+        "define_milestone"
+      ],
+      "invalid_actions": [],
+      "id": "planning_014",
+      "category": "planning",
+      "completion": "ACTION: estimate_time\nACTION: define_milestone\nDONE"
+    },
+    {
+      "gds": 0.6597,
+      "emb": 0.6743,
+      "nli": 0.858,
+      "act": 0.5,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "coverage": 0.5,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 2,
+      "n_valid_actions": 2,
+      "actions": [
+        "define_milestone",
+        "send_slack_message"
+      ],
+      "valid_actions": [
+        "define_milestone",
+        "send_slack_message"
+      ],
+      "out_of_scope_actions": [
+        "send_slack_message"
+      ],
+      "invalid_actions": [],
+      "id": "planning_018",
+      "category": "planning",
+      "completion": "ACTION: define_milestone\nACTION: send_slack_message\nDONE"
+    },
+    {
+      "gds": 0.4172,
+      "emb": 0.721,
+      "nli": 0.6697,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "coverage": 0.5,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "order_tasks"
+      ],
+      "valid_actions": [
+        "order_tasks"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "planning_023",
+      "category": "planning",
+      "completion": "ACTION: order_tasks\nDONE"
+    },
+    {
+      "gds": 0.6499,
+      "emb": 0.8438,
+      "nli": 0.878,
+      "act": 0.3333,
+      "precision": 0.6667,
+      "recall": 1.0,
+      "f1": 0.8,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 3,
+      "n_valid_actions": 3,
+      "actions": [
+        "write_plan",
+        "list_steps",
+        "estimate_time"
+      ],
+      "valid_actions": [
+        "write_plan",
+        "list_steps",
+        "estimate_time"
+      ],
+      "out_of_scope_actions": [
+        "list_steps"
+      ],
+      "invalid_actions": [],
+      "id": "planning_025",
+      "category": "planning",
+      "completion": "ACTION: write_plan\nACTION: list_steps\nACTION: estimate_time\nDONE"
+    },
+    {
+      "gds": 0.4592,
+      "emb": 0.7253,
+      "nli": 0.8054,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "coverage": 0.5,
+      "repetition": 1.0,
+      "completed_clean": true,
+      "n_actions": 12,
+      "n_valid_actions": 12,
+      "actions": [
+        "define_milestone",
+        "define_milestone",
+        "define_milestone",
+        "define_milestone",
+        "define_milestone",
+        "define_milestone",
+        "define_milestone",
+        "define_milestone",
+        "define_milestone",
+        "define_milestone",
+        "define_milestone",
+        "define_milestone"
+      ],
+      "valid_actions": [
+        "define_milestone",
+        "define_milestone",
+        "define_milestone",
+        "define_milestone",
+        "define_milestone",
+        "define_milestone",
+        "define_milestone",
+        "define_milestone",
+        "define_milestone",
+        "define_milestone",
+        "define_milestone",
+        "define_milestone"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "planning_028",
+      "category": "planning",
+      "completion": "ACTION: define_milestone\nACTION: define_milestone\nACTION: define_milestone\nACTION: define_milestone\nACTION: define_milestone\nACTION: define_milestone\nACTION: define_milestone\nACTION: define_milestone\nACTION: define_milestone\nACTION: define_milestone\nACTION: define_milestone\nACTION: define_milestone\nDONE"
+    },
+    {
+      "gds": 0.4631,
+      "emb": 0.7892,
+      "nli": 0.7545,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "list_steps"
+      ],
+      "valid_actions": [
+        "list_steps"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "planning_029",
+      "category": "planning",
+      "completion": "ACTION: list_steps\nDONE"
+    },
+    {
+      "gds": 0.1854,
+      "emb": 0.5639,
+      "nli": 0.0542,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "estimate_cost"
+      ],
+      "valid_actions": [
+        "estimate_cost"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "planning_038",
+      "category": "planning",
+      "completion": "ACTION: estimate_cost"
+    },
+    {
+      "gds": 0.4998,
+      "emb": 0.86,
+      "nli": 0.8059,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 2,
+      "n_valid_actions": 2,
+      "actions": [
+        "prioritize_items",
+        "assign_resources"
+      ],
+      "valid_actions": [
+        "prioritize_items",
+        "assign_resources"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "planning_042",
+      "category": "planning",
+      "completion": "ACTION: prioritize_items\nACTION: assign_resources\nDONE"
+    },
+    {
+      "gds": 0.3159,
+      "emb": 0.7231,
+      "nli": 0.3299,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "check_constraint"
+      ],
+      "valid_actions": [
+        "check_constraint"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "planning_049",
+      "category": "planning",
+      "completion": "ACTION: check_constraint"
+    },
+    {
+      "gds": 0.4844,
+      "emb": 0.7392,
+      "nli": 0.8755,
+      "act": 0.0,
+      "precision": 0.6667,
+      "recall": 0.6667,
+      "f1": 0.6667,
+      "coverage": 0.6667,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 3,
+      "n_valid_actions": 2,
+      "actions": [
+        "open_document",
+        "summarize",
+        "write_text"
+      ],
+      "valid_actions": [
+        "summarize",
+        "write_text"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [
+        "open_document"
+      ],
+      "id": "research_001",
+      "category": "research",
+      "completion": "ACTION: open_document\nACTION: summarize\nACTION: write_text\nDONE"
+    },
+    {
+      "gds": 0.459,
+      "emb": 0.6913,
+      "nli": 0.8387,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.6667,
+      "f1": 0.8,
+      "coverage": 0.6667,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 2,
+      "n_valid_actions": 2,
+      "actions": [
+        "search_web",
+        "cite_source"
+      ],
+      "valid_actions": [
+        "search_web",
+        "cite_source"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "research_002",
+      "category": "research",
+      "completion": "ACTION: search_web\nACTION: cite_source\nDONE"
+    },
+    {
+      "gds": 0.4953,
+      "emb": 0.7531,
+      "nli": 0.898,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.6667,
+      "f1": 0.8,
+      "coverage": 0.6667,
+      "repetition": 0.8,
+      "completed_clean": true,
+      "n_actions": 6,
+      "n_valid_actions": 6,
+      "actions": [
+        "search_web",
+        "cite_source",
+        "cite_source",
+        "cite_source",
+        "cite_source",
+        "cite_source"
+      ],
+      "valid_actions": [
+        "search_web",
+        "cite_source",
+        "cite_source",
+        "cite_source",
+        "cite_source",
+        "cite_source"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "research_004",
+      "category": "research",
+      "completion": "ACTION: search_web\nACTION: cite_source\nACTION: cite_source\nACTION: cite_source\nACTION: cite_source\nACTION: cite_source\nDONE"
+    },
+    {
+      "gds": 0.4749,
+      "emb": 0.8294,
+      "nli": 0.7536,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.6667,
+      "f1": 0.8,
+      "coverage": 0.6667,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 2,
+      "n_valid_actions": 2,
+      "actions": [
+        "search_web",
+        "cite_source"
+      ],
+      "valid_actions": [
+        "search_web",
+        "cite_source"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "research_010",
+      "category": "research",
+      "completion": "ACTION: search_web\nACTION: cite_source\nDONE"
+    },
+    {
+      "gds": 0.4817,
+      "emb": 0.896,
+      "nli": 0.7097,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.6667,
+      "f1": 0.8,
+      "coverage": 0.6667,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 2,
+      "n_valid_actions": 2,
+      "actions": [
+        "search_web",
+        "cite_source"
+      ],
+      "valid_actions": [
+        "search_web",
+        "cite_source"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "research_014",
+      "category": "research",
+      "completion": "ACTION: search_web\nACTION: cite_source\nDONE"
+    },
+    {
+      "gds": 0.3697,
+      "emb": 0.6515,
+      "nli": 0.5809,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.6667,
+      "f1": 0.8,
+      "coverage": 0.6667,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 2,
+      "n_valid_actions": 2,
+      "actions": [
+        "summarize",
+        "write_text"
+      ],
+      "valid_actions": [
+        "summarize",
+        "write_text"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "research_016",
+      "category": "research",
+      "completion": "ACTION: summarize\nACTION: write_text\nDONE"
+    },
+    {
+      "gds": 0.5339,
+      "emb": 0.8525,
+      "nli": 0.9271,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.6667,
+      "f1": 0.8,
+      "coverage": 0.6667,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 2,
+      "n_valid_actions": 2,
+      "actions": [
+        "search_web",
+        "cite_source"
+      ],
+      "valid_actions": [
+        "search_web",
+        "cite_source"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "research_020",
+      "category": "research",
+      "completion": "ACTION: search_web\nACTION: cite_source\nDONE"
+    },
+    {
+      "gds": 0.5938,
+      "emb": 1.0,
+      "nli": 0.9794,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 3,
+      "n_valid_actions": 3,
+      "actions": [
+        "read_document",
+        "extract_text",
+        "write_text"
+      ],
+      "valid_actions": [
+        "read_document",
+        "extract_text",
+        "write_text"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "research_030",
+      "category": "research",
+      "completion": "ACTION: read_document\nACTION: extract_text\nACTION: write_text\nDONE"
+    },
+    {
+      "gds": 0.5367,
+      "emb": 0.9591,
+      "nli": 0.8301,
+      "act": 0.0,
+      "precision": 0.5,
+      "recall": 0.3333,
+      "f1": 0.4,
+      "coverage": 0.3333,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 2,
+      "n_valid_actions": 1,
+      "actions": [
+        "compare_sources",
+        "done"
+      ],
+      "valid_actions": [
+        "compare_sources"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [
+        "done"
+      ],
+      "id": "research_042",
+      "category": "research",
+      "completion": "ACTION: compare_sources\nACTION: DONE"
+    },
+    {
+      "gds": 0.5105,
+      "emb": 0.7725,
+      "nli": 0.9291,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 3,
+      "n_valid_actions": 3,
+      "actions": [
+        "read_document",
+        "extract_text",
+        "return_data"
+      ],
+      "valid_actions": [
+        "read_document",
+        "extract_text",
+        "return_data"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "research_043",
+      "category": "research",
+      "completion": "ACTION: read_document\nACTION: extract_text\nACTION: return_data\nDONE"
+    },
+    {
+      "gds": 0.4544,
+      "emb": 0.674,
+      "nli": 0.8407,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 2,
+      "n_valid_actions": 2,
+      "actions": [
+        "fetch_url",
+        "write_file"
+      ],
+      "valid_actions": [
+        "fetch_url",
+        "write_file"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "tool_use_001",
+      "category": "tool_use",
+      "completion": "ACTION: fetch_url\nACTION: write_file\nDONE"
+    },
+    {
+      "gds": 0.3965,
+      "emb": 0.7854,
+      "nli": 0.5364,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 3,
+      "n_valid_actions": 3,
+      "actions": [
+        "fetch_url",
+        "parse_xml",
+        "return_data"
+      ],
+      "valid_actions": [
+        "fetch_url",
+        "parse_xml",
+        "return_data"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "tool_use_007",
+      "category": "tool_use",
+      "completion": "ACTION: fetch_url\nACTION: parse_xml\nACTION: return_data"
+    },
+    {
+      "gds": 0.2226,
+      "emb": 0.5173,
+      "nli": 0.2246,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": false,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "schedule_job"
+      ],
+      "valid_actions": [
+        "schedule_job"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "tool_use_011",
+      "category": "tool_use",
+      "completion": "ACTION: schedule_job"
+    },
+    {
+      "gds": 0.4692,
+      "emb": 0.6826,
+      "nli": 0.8816,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "coverage": 1.0,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 2,
+      "n_valid_actions": 2,
+      "actions": [
+        "send_request",
+        "return_data"
+      ],
+      "valid_actions": [
+        "send_request",
+        "return_data"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "tool_use_015",
+      "category": "tool_use",
+      "completion": "ACTION: send_request\nACTION: return_data\nDONE"
+    },
+    {
+      "gds": 0.5385,
+      "emb": 0.8422,
+      "nli": 0.9527,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.6667,
+      "f1": 0.8,
+      "coverage": 0.6667,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 2,
+      "n_valid_actions": 2,
+      "actions": [
+        "call_api",
+        "parse_json"
+      ],
+      "valid_actions": [
+        "call_api",
+        "parse_json"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "tool_use_018",
+      "category": "tool_use",
+      "completion": "ACTION: call_api\nACTION: parse_json\nDONE"
+    },
+    {
+      "gds": 0.4813,
+      "emb": 0.6493,
+      "nli": 0.9549,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "coverage": 0.5,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 2,
+      "n_valid_actions": 2,
+      "actions": [
+        "validate_data",
+        "return_data"
+      ],
+      "valid_actions": [
+        "validate_data",
+        "return_data"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "tool_use_019",
+      "category": "tool_use",
+      "completion": "ACTION: validate_data\nACTION: return_data\nDONE"
+    },
+    {
+      "gds": 0.209,
+      "emb": 0.1754,
+      "nli": 0.5212,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "coverage": 0.5,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 1,
+      "n_valid_actions": 1,
+      "actions": [
+        "compress_file"
+      ],
+      "valid_actions": [
+        "compress_file"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "tool_use_020",
+      "category": "tool_use",
+      "completion": "ACTION: compress_file\ncompress_file --pattern \"*.log\" --output logs_backup.zip\nDONE"
+    },
+    {
+      "gds": 0.434,
+      "emb": 0.5292,
+      "nli": 0.9175,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571,
+      "coverage": 0.75,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 3,
+      "n_valid_actions": 3,
+      "actions": [
+        "parse_xml",
+        "convert_format",
+        "write_file"
+      ],
+      "valid_actions": [
+        "parse_xml",
+        "convert_format",
+        "write_file"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "tool_use_023",
+      "category": "tool_use",
+      "completion": "ACTION: parse_xml\nACTION: convert_format\nACTION: write_file\nDONE"
+    },
+    {
+      "gds": 0.5406,
+      "emb": 0.8887,
+      "nli": 0.9134,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.6667,
+      "f1": 0.8,
+      "coverage": 0.6667,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 2,
+      "n_valid_actions": 2,
+      "actions": [
+        "call_api",
+        "return_data"
+      ],
+      "valid_actions": [
+        "call_api",
+        "return_data"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "tool_use_024",
+      "category": "tool_use",
+      "completion": "ACTION: call_api\nACTION: return_data\nDONE"
+    },
+    {
+      "gds": 0.4698,
+      "emb": 0.8614,
+      "nli": 0.7046,
+      "act": 0.0,
+      "precision": 1.0,
+      "recall": 0.6667,
+      "f1": 0.8,
+      "coverage": 0.6667,
+      "repetition": 0.0,
+      "completed_clean": true,
+      "n_actions": 2,
+      "n_valid_actions": 2,
+      "actions": [
+        "query_database",
+        "format_output"
+      ],
+      "valid_actions": [
+        "query_database",
+        "format_output"
+      ],
+      "out_of_scope_actions": [],
+      "invalid_actions": [],
+      "id": "tool_use_031",
+      "category": "tool_use",
+      "completion": "ACTION: query_database\nACTION: format_output\nDONE"
+    }
+  ]
+}

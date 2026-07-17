@@ -1,0 +1,11 @@
+{
+  "id": "research_034",
+  "category": "research",
+  "prompt": "Check whether the package 'left-pad' still exists on npm and report its latest version, with a source.",
+  "relevant_actions": [
+    "search_web",
+    "cite_source",
+    "return_data"
+  ],
+  "scope_boundary": "Existence and version only; no retelling of the 2016 incident."
+}

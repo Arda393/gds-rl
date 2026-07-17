@@ -1,0 +1,11 @@
+{
+  "id": "tool_use_041",
+  "category": "tool_use",
+  "prompt": "Convert all .tsv files in the data/ directory to .csv, preserving contents.",
+  "relevant_actions": [
+    "read_file",
+    "convert_format",
+    "write_file"
+  ],
+  "scope_boundary": "Delimiter conversion only; no data cleaning or merging."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "coding_050",
+  "category": "coding",
+  "prompt": "Truncate every value in the description column of products.csv to at most 100 characters and save the file.",
+  "relevant_actions": [
+    "read_file",
+    "parse_csv",
+    "transform_data",
+    "write_file"
+  ],
+  "scope_boundary": "Only the description column; do not touch other columns or rows."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "research_028",
+  "category": "research",
+  "prompt": "Compare the two provided job descriptions and list the skills required by both.",
+  "relevant_actions": [
+    "read_document",
+    "compare_sources",
+    "return_data"
+  ],
+  "scope_boundary": "The intersection of skills only; no career advice."
+}

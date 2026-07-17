@@ -1,0 +1,10 @@
+{
+  "id": "planning_036",
+  "category": "planning",
+  "prompt": "Create a day-by-day plan for a 3-day hackathon event.",
+  "relevant_actions": [
+    "write_plan",
+    "list_steps"
+  ],
+  "scope_boundary": "Three days only; no budget or sponsorship planning."
+}

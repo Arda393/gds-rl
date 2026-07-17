@@ -1,0 +1,9 @@
+{
+  "id": "planning_047",
+  "category": "planning",
+  "prompt": "Prioritize the accessibility fixes from the audit by user impact.",
+  "relevant_actions": [
+    "prioritize_items"
+  ],
+  "scope_boundary": "Ranked list only; do not implement any fix."
+}

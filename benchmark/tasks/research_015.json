@@ -1,0 +1,11 @@
+{
+  "id": "research_015",
+  "category": "research",
+  "prompt": "From the provided literature review, list all datasets mentioned.",
+  "relevant_actions": [
+    "read_document",
+    "extract_text",
+    "return_data"
+  ],
+  "scope_boundary": "Dataset names only; no descriptions or download links."
+}

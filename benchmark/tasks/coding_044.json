@@ -1,0 +1,9 @@
+{
+  "id": "coding_044",
+  "category": "coding",
+  "prompt": "Implement an LRU cache class with get and put, with capacity given at initialization.",
+  "relevant_actions": [
+    "write_code"
+  ],
+  "scope_boundary": "get/put with LRU eviction only; no TTL, persistence, or stats."
+}

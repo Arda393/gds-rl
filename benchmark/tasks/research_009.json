@@ -1,0 +1,11 @@
+{
+  "id": "research_009",
+  "category": "research",
+  "prompt": "Summarize the key differences between HTTP/2 and HTTP/3 in one paragraph.",
+  "relevant_actions": [
+    "search_web",
+    "summarize",
+    "write_text"
+  ],
+  "scope_boundary": "One paragraph; no migration advice or benchmarks."
+}

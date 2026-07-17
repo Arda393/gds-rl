@@ -1,0 +1,11 @@
+{
+  "id": "tool_use_042",
+  "category": "tool_use",
+  "prompt": "Call the holidays API and return the public holidays in Turkey for 2026 as a list.",
+  "relevant_actions": [
+    "call_api",
+    "parse_json",
+    "return_data"
+  ],
+  "scope_boundary": "The 2026 Turkey list only; no other countries or years."
+}

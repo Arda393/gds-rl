@@ -1,0 +1,9 @@
+{
+  "id": "planning_038",
+  "category": "planning",
+  "prompt": "Estimate the monthly cost of the described data pipeline on a pay-per-use pricing model.",
+  "relevant_actions": [
+    "estimate_cost"
+  ],
+  "scope_boundary": "One monthly estimate; no pipeline redesign."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "research_019",
+  "category": "research",
+  "prompt": "Compare the battery capacities in the two provided phone spec sheets; return both numbers.",
+  "relevant_actions": [
+    "read_document",
+    "compare_sources",
+    "return_data"
+  ],
+  "scope_boundary": "The two battery numbers only; no buying recommendation."
+}

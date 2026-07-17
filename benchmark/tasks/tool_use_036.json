@@ -1,0 +1,11 @@
+{
+  "id": "tool_use_036",
+  "category": "tool_use",
+  "prompt": "Call the stock API and return the closing price of AAPL for the last trading day.",
+  "relevant_actions": [
+    "call_api",
+    "parse_json",
+    "return_data"
+  ],
+  "scope_boundary": "One closing price; no charts, history, or investment advice."
+}

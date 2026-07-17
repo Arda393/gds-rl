@@ -1,0 +1,11 @@
+{
+  "id": "tool_use_037",
+  "category": "tool_use",
+  "prompt": "Read the access log and output the 5 most frequent IP addresses.",
+  "relevant_actions": [
+    "read_file",
+    "aggregate_data",
+    "format_output"
+  ],
+  "scope_boundary": "Top 5 IPs only; no geolocation or blocking suggestions."
+}
